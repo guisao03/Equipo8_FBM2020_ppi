@@ -1,0 +1,52 @@
+.barritaa{
+   
+    background: rgb(52, 36, 199);
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    margin-left: -130px;
+    margin-top: -30px;
+   
+}
+.barritaa img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.barritaa h1{
+    font-family: serif;
+    font-size: 50px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.felizz{
+    text-align: center;
+    font-family: serif;
+    color: #007bff;
+    margin: 20px;
+}
+.felizz h1{
+    font-size: 50px;
+}
+.felizz img{
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+.siguiente{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 10px;
+    background: #007bff;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    
+}
+.letra{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}

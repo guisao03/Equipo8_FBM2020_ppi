@@ -1,0 +1,72 @@
+.barraa{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 650px;
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/gimm.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(6, 9, 9, 0.413), #0c0a1764), url(../img/gimm.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 30px 50px 30px 130px;
+}
+.barrita{
+    width: 1309px;
+    background: rgb(52, 36, 199);
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    margin-left: -130px;
+    margin-top: -30px;
+    opacity: 0.6;
+}
+
+.barrita img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.barrita h1{
+    
+    font-family: serif;
+    font-size: 50px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.calendarioo{
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+@media screen and (max-width: 480px){
+    .barrita{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .barrita img{
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+    .barrita h1{
+        margin-top: 50px;
+    }
+    .calendarioo{
+            width: 350px;
+            font-size: 25px;
+    }
+    .barraa{
+        padding: 0px 0px 0px 0px ;
+        height: 600px;
+    }
+}

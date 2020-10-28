@@ -1,0 +1,195 @@
+.Menu-Logo img {
+    width: 80;
+    height: 80;
+    border-radius: 30px;
+    float: left;
+    margin: auto;  
+}
+
+
+.navbar-toggler {
+    display: none
+    /*font-size: 50px;*/
+}
+
+ul {
+    list-style: none;
+}
+
+header nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*nav:hover {
+background-color: rgba(16, 34, 74, 0.811);
+opacity: 0.8;
+}*/
+
+nav ul li {
+    font-size: 17px;
+    padding: 16px;
+    font-family: serif;
+    
+}
+
+nav ul li a:hover {
+    color: #a5a5a5;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+a :hover {
+    color: rgb(252, 252, 252);
+}
+
+nav img {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+/*fin barra*/
+header {
+    width: 100%;
+    height: 700px;
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(43, 180, 214, 0.824), #0606e9ce), url(../img/ELFONDO.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(4, 41, 59, 0.824), #110480c9), url(../img/ELFONDO.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .Texto-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 0px -40px 0px;
+}
+
+
+
+.Texto-header h1 {
+    font-size: 60px;
+    color: aliceblue;
+    font-family: serif;
+}
+
+.Texto-header h2 {
+    padding: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 300;
+    color: aliceblue;
+    font-family: serif;
+    border-bottom: 1px solid #fff;
+
+}
+
+.Wave{
+   overflow: hidden;
+   stroke: none;
+   fill: rgb(255, 255, 255);
+   height: 100%;
+   width: 101%;
+   margin-bottom: -360px;
+}
+.botones{
+    padding: 20px;
+    
+}
+.ingresar{
+    margin: 10px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background: rgb(6, 139, 248);
+    color: #fff;
+    border: 1px solid #fff ;
+}
+
+
+.ingre{
+    color: #fff;
+    font-family: serif;
+    font-size: 25px;
+}
+.ingresar:hover{
+    background: transparent;
+}
+.registro{
+    margin: 10px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background: rgb(123, 17, 185);
+    color: #fff;
+    font-family: serif;
+    font-size: 25px;
+    border: none;
+    border: 1px solid #fff ;
+}
+.regis{
+    color: #fff;
+    font-family: serif;
+    font-size: 25px;
+}
+.registro:hover {
+    background: transparent;
+}
+
+
+@media screen and (max-width: 480px) {
+    header ul {
+        display: none;
+    }
+    .navbar-toggler {
+        display: initial;
+        color: #fff;
+    }
+    header {
+    width: 100%;
+    height: 550px;
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(43, 180, 214, 0.824), #0606e9ce), url(../img/ELFONDO.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(4, 41, 59, 0.824), #110480c9), url(../img/ELFONDO.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    position: relative;
+    }
+    .Wave{
+        margin-bottom: -450px;
+    }
+    .Texto-header h2 {
+        border-bottom: none;
+    
+    }
+
+
+
+    }

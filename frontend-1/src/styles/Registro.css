@@ -1,0 +1,109 @@
+
+main {
+    padding: 30px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.contenedor {
+    width: 350px;
+    height: 550px;
+    background: rgb(148, 162, 184);
+    color: #fff;
+    margin: auto;
+    /*top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);*/
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(215, 222, 222);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .9);
+    margin-top: 50px;
+}
+
+.Avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: 575px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+
+.contenedor h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+}
+
+
+/*.contenedor label {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}*/
+
+.contenedor input {
+    width: 100%;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="contraseña"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 19px;
+    font-family: serif;
+    border-radius: 5px;
+    color: rgb(69, 69, 70);
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: rgb(69, 69, 70);
+    font-family: serif;
+    font-size: 17px;
+}
+
+.contenedor input[type="submit"] {
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    background: #007bff;
+    font-family: serif;
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.contenedor .pregunta {
+    padding: 20px 0px;
+}
+
+.contenedor .pregunta a {
+    font-family: serif;
+    font-size: 15px;
+    margin: 5px;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+}
