@@ -8,6 +8,7 @@ import Calendario from '../src/pages/Calendario';
 import Entrenamiento from '../src/pages/Entrenamiento';
 import Retroalimentacion from '../src/pages/Retroalimentacion';
 import Cuestionario from '../src/pages/Cuestionario';
+import Circuito_uno from '../src/circutos/Circuito_uno';
 import {
   BrowserRouter,
   Switch,
@@ -38,11 +39,14 @@ function App() {
           <Route path="/entrenamiento" component={Entrenamiento}>
               <Entrenamiento/>
           </Route>
-          <Route path="/retroalimentacion" component={Entrenamiento}>
+          <Route path="/retroalimentacion" component={Retroalimentacion}>
               <Retroalimentacion/>
           </Route>
-          <Route path="/cuestionario" component={Entrenamiento}>
+          <Route path="/cuestionario" component={Cuestionario}>
               <Cuestionario/>
+          </Route>
+          <Route path="/puno" component={Circuito_uno}>
+              <Circuito_uno/>
           </Route>
 
         </Switch>

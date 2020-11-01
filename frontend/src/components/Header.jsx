@@ -19,6 +19,7 @@ function Header(props) {
                     <i class="fa fa-bars"></i>
                 </button>
                 <ul>
+                    <Link to="/sesion" className="ingre"><button className=" ingresar">Ingresar</button></Link>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/nosotros">Sobre Nosotros</Link></li>
                 </ul>
@@ -26,10 +27,7 @@ function Header(props) {
             <section className="Texto-header">
                 <h1>Olympo Fitness</h1>
                 <h2>Cuida y Ama tu Cuerpo en Tiempos de Pandemia</h2> 
-                <div className="botones">
-            <Link to="/sesion" className="ingre"><button className=" ingresar">Ingresar</button></Link>
-            <Link to="/registro" className="regis"><button className=" registro" >Registrarse </button></Link>
-           </div> 
+             
             </section>
             <div className="Wave" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" ><path d="M-14.39,80.42 C149.99,150.00 263.82,-13.31 499.15,56.73 L509.31,186.02 L-13.82,169.23 Z" ></path></svg></div>
             
