@@ -8,12 +8,17 @@ import Calendario from '../src/pages/Calendario';
 import Entrenamiento from '../src/pages/Entrenamiento';
 import Retroalimentacion from '../src/pages/Retroalimentacion';
 import Cuestionario from '../src/pages/Cuestionario';
-import Circuito_uno from '../src/circutos/Circuito_uno';
+import Entrenamiento_dos from '../src/pages/Entrenamiento_dos';
+import Entrenamiento_tres from '../src/pages/Entrenamiento_tres';
+import Abdomen_prin from './circutos/Abdomen_prin';
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
+
+
+
 
 
 function App() {
@@ -39,15 +44,24 @@ function App() {
           <Route path="/entrenamiento" component={Entrenamiento}>
               <Entrenamiento/>
           </Route>
+          <Route path="/entrenamiento_dos" component={Entrenamiento_dos}>
+              <Entrenamiento_dos/>
+          </Route>
+          <Route path="/entrenamiento_tres" component={Entrenamiento_tres}>
+              <Entrenamiento_tres/>
+          </Route>
           <Route path="/retroalimentacion" component={Retroalimentacion}>
               <Retroalimentacion/>
           </Route>
           <Route path="/cuestionario" component={Cuestionario}>
               <Cuestionario/>
           </Route>
-          <Route path="/puno" component={Circuito_uno}>
-              <Circuito_uno/>
+          <Route path="/abdomen_prin" component={Abdomen_prin}>
+              <Abdomen_prin/>
           </Route>
+
+         
+
 
         </Switch>
         </BrowserRouter>

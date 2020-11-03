@@ -4,7 +4,7 @@ import Logo from '../img/LOGO.jpg'
 import { Link } from 'react-router-dom';
 import '../styles/Entrenamiento.css';
 
-class Entrenamiento extends Component {
+class Entrenamiento_tres extends Component {
     render () {
         return(
             <div>
@@ -19,6 +19,7 @@ class Entrenamiento extends Component {
                     <button className="doss" ><Link className="dos">Circuito 2</Link></button>
                     <button className="tress"><Link className="tres">Circuito 3</Link></button>
                     <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>
+                    <button className="cincoo"><Link className="cinco">Circuito 5</Link></button>
                     <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
                 </section>
 
@@ -29,4 +30,4 @@ class Entrenamiento extends Component {
 
     }
 }
-export default Entrenamiento;
+export default Entrenamiento_tres;
