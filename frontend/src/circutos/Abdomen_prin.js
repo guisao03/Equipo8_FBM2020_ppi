@@ -17,10 +17,9 @@ class Abdomen_prin extends Component {
                 <div className="container">
                     <p>Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea. </p>
                     <div className="salto">
-                        <ReactPlayer className="sal" url= {require('../videos/abdomen-prin/salto.mp4')}
-                        controls
-                        muted
+                        <ReactPlayer className="sal" url='https://youtu.be/2AO_1J-K4Os'
                         playing
+                        muted
                          />
                          <div className="informacion">
                          <h2><strong> Salto de Tijeras</strong></h2> <br/>
@@ -29,73 +28,73 @@ class Abdomen_prin extends Component {
                          
                     </div>
                     <div className="crunch">
-                        <ReactPlayer className="crun" url= {require('../videos/abdomen-prin/crunch.mp4')}
-                        controls
+                        <ReactPlayer className="crun" url='https://youtu.be/z8gyFoADiBQ'
+                        
                         muted
                         playing
                          />
                          <div className="informacion">
-                         <h2>crunch</h2> <br/>
+                         <h2><strong>crunch</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                        
                     </div>
                     <div className="elevacion">
-                        <ReactPlayer className="ele" url= {require('../videos/abdomen-prin/elevacion.mp4')}
-                        controls
+                        <ReactPlayer className="ele" url='https://youtu.be/ct1-Qqh9aYk'
+                       
                         muted
                         playing
                          />
                          <div className="informacion">
-                         <h2>Elevacion de piernas</h2> <br/>
+                         <h2><strong>Elevacion de piernas</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                         
                     </div>
                     <div className="escalada">
-                        <ReactPlayer className="esca" url= {require('../videos/abdomen-prin/escalada.mp4')}
-                        controls
+                        <ReactPlayer className="esca" url='https://youtu.be/I6jrtisKL8o'
+                        
                         muted
                         playing
                          />
                          <div className="informacion">
-                         <h2>Escalada</h2> <br/>
+                         <h2><strong>Escalada</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                         
                     </div>
                     <div className="talon">
-                        <ReactPlayer className="tal" url= {require('../videos/abdomen-prin/talon.mp4')}
-                        controls
+                        <ReactPlayer className="tal" url='https://youtu.be/uk6Qk6PzMu4'
+                        
                         muted
                         playing
                          />
                          <div className="programacion">
-                             <h2>Toque al talon</h2> <br/>
+                             <h2><strong>Toque al talon</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                          
                     </div>
                     <div className="twist">
-                        <ReactPlayer className="twi" url= {require('../videos/abdomen-prin/Twist.mp4')}
-                        controls
+                        <ReactPlayer className="twi" url='https://youtu.be/3PYDAMs9Ckg'
+                        
                         muted
                         playing
                          />
                          <div className="informacion">
-                         <h2>Twist</h2> <br/>
+                         <h2><strong>Twist</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                         
                     </div>
                     <div className="cobra">
-                        <ReactPlayer className="cob" url= {require('../videos/abdomen-prin/cobra.mp4')}
-                        controls
+                        <ReactPlayer className="cob" url='https://youtu.be/upJjiSrLR_A'
+                        
                         muted
                         playing
                          />
                          <div className="informacion">
-                         <h2>Estiramiento de cobra</h2> <br/>
+                         <h2><strong>Estiramiento de cobra</strong></h2> <br/>
                          <p>la explicacion de que ejercios trabaja</p>
                          </div>
                         

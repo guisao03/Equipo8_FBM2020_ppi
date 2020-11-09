@@ -19,8 +19,8 @@ function Nosotros (props){
              <section className="sepcion-uno">
                  <div className="colum-uno">
                      <h2 className="til">Conoce un Poco de Nosotros</h2>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas quas ratione itaque. Sunt itaque, reprehenderit adipisci minima quasi, quaerat quo id, molestiae voluptas dolorum architecto tempora officia facere nihil.</p>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quisquam, officiis reprehenderit maiores ipsam incidunt!</p>
+                     <p> Olympo Fitness es un grupo de 4 jóvenes estudiantes cada uno con un rol y una tarea especifica en este proyecto.</p>
+                     <p>Los cuáles decidieron ayudar a las personas que sufren de alguna enfermedad en cuanto a su salud física e incluso los que todavía no la tienen pero que la quieren prevenir, con una aplicación y/o pagina web hecha con la finalidad de instruir a todo el que quiera darle un estilo de vida a su cuerpo saludable, gracias a los ejercicios propuestos por la misma aplicación.</p>
                  </div>
                  <div className="colum-dos">
                      <img src ={Uno} alt="" />

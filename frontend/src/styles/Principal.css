@@ -111,7 +111,9 @@
                         padding: 15px;
                     }
                     /* sepcion-tres*/
-                    
+                    main{
+                        padding: 0px 0px 0px 0px;
+                    }
                     .sepcion-tres {
                         display: flex;
                         padding: 40px 50px 40px 50px;
@@ -127,7 +129,7 @@
                     }
                     
                     .columna-dos {
-                        width: 500px;
+                        width: 700px;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -152,51 +154,71 @@
 
 
                     @media screen and (max-width: 480px) {
-                   
-                    .sepcion-uno {
-                        flex-direction: column;
-                    }
-                    .contenedor-dos {
-                        margin: 0px;
-                    }
-                  
-                    .contenedor-dos img {
-                        width: 350px;
-                        height: 210px;
-                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
+                        main{
+                            padding: 0px;
+                        }
+                        .sepcion-uno{
+                            padding: 0px;
+                            margin: 0px;
+                            margin-left: -20px;
+                        }
+                        .contenedor-dos{
+                            margin: 0px;
+                            padding: 0px;
+                        }
+                        .contenedor-dos img{
+                            width: 300px;
+                            height: 200px;
+                        }
+                        .contenedor-tres{
+                            margin: 0px;
+                            padding: 0px;
+                        }
+                        .contenedor-tres img{
+                            width: 300px;
+                            height: 200px;
+                        }
+                        /*sepcion dos*/
+                        .sepcion-dos{
+                            width: 100%;
+                            height: 8%;
+                            padding: 0px;
+                            flex-direction: column;
+                        }
+                        .sepcion-dos img{
+                            width: 250px;
+                            height: 200px;
+                            margin-top: 10px;
+                            padding: 0px;
+                            margin-left: 7px;
+                        }
+                        .texto{
+                            margin-top: 10px;
+                            text-align: center;
+
+                        }
+                        .texto .tilulo-dos{
+                            text-align: center;
+                        }
+                        /*sepcion tres*/
+                        .sepcion-tres{
+                            flex-direction: column;
+                        }
+                        .columna-uno {
+                            padding: 0px 60px 0px 60px;
+                            margin-left: -50px;
+                        }
+                        .titulo-tres{
+                            padding: 0px;
+                        }
+                        .columna-dos {
+                            padding: 0px 80px 0px 80px;
+                        }
+                        .columna-tres {
+                            padding: 0px 60px 0px 60px;
+                        }
+                        
+                        
+                        
                         
                     }
-
-                    .contenedor-tres {
-                        margin: 0px;
-                    }
-                    .contenedor-tres img {
-                        width: 350px;
-                        height: 210px;
-                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
-                    }
-                    /*seption-dos*/
-                    .sepcion-dos {
-                        display: flex;
-                        flex-direction: column;
-                        padding: 0px;
-                        height: 600px;
-                    }
-                    .imagen img {
-                        width: 350px;
-                        height: 200px;
-                        margin-left: -5px;
-                    }
-                    .texto {
-                        margin: 0px;
-                        text-align: center;
-                    }
-                    .texto p {
-                        margin: 0px;
-                    }
-                    /*seption-tres*/
-                    .sepcion-tres {
-                        display: flex;
-                        flex-wrap: wrap;
-                    }
-                }
