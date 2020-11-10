@@ -18,6 +18,7 @@ class Abdomen_prin extends Component {
                     <p>Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea. </p>
                     <div className="salto">
                         <ReactPlayer className="sal" url='https://youtu.be/2AO_1J-K4Os'
+                        controls
                         playing
                         muted
                          />

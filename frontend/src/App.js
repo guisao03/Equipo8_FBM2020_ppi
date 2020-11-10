@@ -11,12 +11,18 @@ import Cuestionario from '../src/pages/Cuestionario';
 import Entrenamiento_dos from '../src/pages/Entrenamiento_dos';
 import Entrenamiento_tres from '../src/pages/Entrenamiento_tres';
 import Abdomen_prin from './circutos/Abdomen_prin';
+<<<<<<< HEAD
 import Bracircuito3_prin from './circutos/Bracircuito3_prin';
+=======
+import Usuario_2 from '../src/pages/Usuario_2';
+import Usuario_3 from '../src/pages/Usuario_3';
+>>>>>>> 6ff0b0ba2039bdfcc9030f23c073ab050492bfcf
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
+
 
 
 
@@ -38,6 +44,12 @@ function App() {
             
           <Route path="/usuario" component={Usuario}>
               <Usuario/>
+          </Route>
+          <Route path="/usuario_2" component={Usuario_2}>
+              <Usuario_2/>
+          </Route>
+          <Route path="/usuario_3" component={Usuario_3}>
+              <Usuario_3/>
           </Route>
           <Route path="/calendario" component={Calendario}>
               <Calendario/>
