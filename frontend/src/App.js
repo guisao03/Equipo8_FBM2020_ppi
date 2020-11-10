@@ -11,11 +11,14 @@ import Cuestionario from '../src/pages/Cuestionario';
 import Entrenamiento_dos from '../src/pages/Entrenamiento_dos';
 import Entrenamiento_tres from '../src/pages/Entrenamiento_tres';
 import Abdomen_prin from './circutos/Abdomen_prin';
+import Usuario_2 from '../src/pages/Usuario_2';
+import Usuario_3 from '../src/pages/Usuario_3';
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
+
 
 
 
@@ -37,6 +40,12 @@ function App() {
             
           <Route path="/usuario" component={Usuario}>
               <Usuario/>
+          </Route>
+          <Route path="/usuario_2" component={Usuario_2}>
+              <Usuario_2/>
+          </Route>
+          <Route path="/usuario_3" component={Usuario_3}>
+              <Usuario_3/>
           </Route>
           <Route path="/calendario" component={Calendario}>
               <Calendario/>
