@@ -4,19 +4,16 @@ import Nosotros from './pages/Nosotros';
 import Iniciarsesion from './pages/Iniciarsesion';
 import Registro from './pages/Registro';
 import Usuario from '../src/pages/Usuario'; 
+import Usuario2 from '../src/pages/Usuario2';
+import Usuario3 from '../src/pages/Usuario3';
 import Calendario from '../src/pages/Calendario';
 import Entrenamiento from '../src/pages/Entrenamiento';
 import Retroalimentacion from '../src/pages/Retroalimentacion';
 import Cuestionario from '../src/pages/Cuestionario';
-import Entrenamiento_dos from '../src/pages/Entrenamiento_dos';
-import Entrenamiento_tres from '../src/pages/Entrenamiento_tres';
-import Abdomen_prin from './circutos/Abdomen_prin';
-<<<<<<< HEAD
-import Bracircuito3_prin from './circutos/Bracircuito3_prin';
-=======
-import Usuario_2 from '../src/pages/Usuario_2';
-import Usuario_3 from '../src/pages/Usuario_3';
->>>>>>> 6ff0b0ba2039bdfcc9030f23c073ab050492bfcf
+import Entrenamientodos from './pages/Entrenamientodos';
+import Entrenamientotres from './pages/Entrenamientotres';
+import Abdomenprin from './circutos/Abdomenprin';
+import Bracircuito3prin from './circutos/Bracircuito3prin';
 import {
   BrowserRouter,
   Switch,
@@ -45,11 +42,11 @@ function App() {
           <Route path="/usuario" component={Usuario}>
               <Usuario/>
           </Route>
-          <Route path="/usuario_2" component={Usuario_2}>
-              <Usuario_2/>
+          <Route path="/usuario_2" component={Usuario2}>
+              <Usuario2/>
           </Route>
-          <Route path="/usuario_3" component={Usuario_3}>
-              <Usuario_3/>
+          <Route path="/usuario_3" component={Usuario3}>
+              <Usuario3/>
           </Route>
           <Route path="/calendario" component={Calendario}>
               <Calendario/>
@@ -57,11 +54,11 @@ function App() {
           <Route path="/entrenamiento" component={Entrenamiento}>
               <Entrenamiento/>
           </Route>
-          <Route path="/entrenamiento_dos" component={Entrenamiento_dos}>
-              <Entrenamiento_dos/>
+          <Route path="/entrenamiento_dos" component={Entrenamientodos}>
+              <Entrenamientodos/>
           </Route>
-          <Route path="/entrenamiento_tres" component={Entrenamiento_tres}>
-              <Entrenamiento_tres/>
+          <Route path="/entrenamiento_tres" component={Entrenamientotres}>
+              <Entrenamientotres/>
           </Route>
           <Route path="/retroalimentacion" component={Retroalimentacion}>
               <Retroalimentacion/>
@@ -69,17 +66,13 @@ function App() {
           <Route path="/cuestionario" component={Cuestionario}>
               <Cuestionario/>
           </Route>
-          <Route path="/abdomen_prin" component={Abdomen_prin}>
-              <Abdomen_prin/>
+          <Route path="/abdomen_prin" component={Abdomenprin}>
+              <Abdomenprin/>
               </Route>
-          <Route path="/bracircuito3_prin" component={Bracircuito3_prin}>
-              <Bracircuito3_prin/>
+          <Route path="/bracircuito3_prin" component={Bracircuito3prin}>
+              <Bracircuito3prin/>
         
           </Route>
-
-         
-
-
         </Switch>
         </BrowserRouter>
   

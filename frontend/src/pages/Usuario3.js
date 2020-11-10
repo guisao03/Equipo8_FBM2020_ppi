@@ -5,7 +5,7 @@ import '../styles/Usuario.css';
 
 
 
-class Usuario_2 extends Component  {
+class Usuario3 extends Component  {
     render () {
         return (
             <div>
@@ -34,4 +34,4 @@ class Usuario_2 extends Component  {
     }
    
 }
-export default Usuario_2;
+export default Usuario3;

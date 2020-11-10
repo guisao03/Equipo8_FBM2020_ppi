@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Abdomen_prin.css';
 
 
-class Abdomen_prin extends Component {
+class Abdomenprin extends Component {
    render () {
        return(
            <div>
@@ -109,4 +109,4 @@ class Abdomen_prin extends Component {
    }
 }
 
-export default Abdomen_prin;
+export default Abdomenprin;

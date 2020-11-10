@@ -4,7 +4,9 @@ import Logo from '../img/LOGO.jpg'
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
 import '../styles/Bracircuito3_prin.css';
-class Bracircuito3_prin extends Component {
+
+
+class Bracircuito3prin extends Component {
    render () {
        return(
            <div>
@@ -133,7 +135,7 @@ class Bracircuito3_prin extends Component {
    }
 }
 
-export default Bracircuito3_prin;
+export default Bracircuito3prin;
 
 
 
