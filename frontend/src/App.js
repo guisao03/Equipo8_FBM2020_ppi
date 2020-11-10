@@ -11,6 +11,7 @@ import Cuestionario from '../src/pages/Cuestionario';
 import Entrenamiento_dos from '../src/pages/Entrenamiento_dos';
 import Entrenamiento_tres from '../src/pages/Entrenamiento_tres';
 import Abdomen_prin from './circutos/Abdomen_prin';
+import Bracircuito3_prin from './circutos/Bracircuito3_prin';
 import {
   BrowserRouter,
   Switch,
@@ -58,6 +59,10 @@ function App() {
           </Route>
           <Route path="/abdomen_prin" component={Abdomen_prin}>
               <Abdomen_prin/>
+              </Route>
+          <Route path="/bracircuito3_prin" component={Bracircuito3_prin}>
+              <Bracircuito3_prin/>
+        
           </Route>
 
          

@@ -1,0 +1,43 @@
+.braz{
+    background: rgb(52, 36, 199);
+    display: flex;
+    padding:  10px 40px 10px 40px;
+}
+.braz img {
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+}
+.braz h1{
+    font-family: serif;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+container1 p{
+    font-family: serif;
+    font-size: 30px;
+    margin: 20px 0px 30px 0px ;
+}
+.tijeras{
+    padding: 50px;
+    display: flex;
+}
+.sal1{
+    padding: 20px;
+    display: flex;
+}
+.tijeras .sal1{
+    width: 10%;
+    height: 5%;
+}
+.brizquierdo {
+    padding: 50px;
+    display: flex;
+}
+.brz{
+    padding: 20px;
+    display: flex;
+}
