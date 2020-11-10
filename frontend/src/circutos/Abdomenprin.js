@@ -3,7 +3,7 @@ import { Component } from 'react';
 import Logo from '../img/LOGO.jpg'
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
-import '../styles/Abdomen_prin.css';
+import '../styles/Abdomenprin.css';
 
 
 class Abdomenprin extends Component {

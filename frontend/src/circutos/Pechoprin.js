@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
 import '../styles/pecho_prin.css'; 
 
-class Pecho_prin extends component  {
+class Pechoprin extends component  {
     render () {
         return(
         <div>
@@ -110,4 +110,4 @@ class Pecho_prin extends component  {
 
 
 }
-export default Pecho_prin; 
+export default Pechoprin; 

@@ -14,6 +14,7 @@ import Entrenamientodos from './pages/Entrenamientodos';
 import Entrenamientotres from './pages/Entrenamientotres';
 import Abdomenprin from './circutos/Abdomenprin';
 import Bracircuito3prin from './circutos/Bracircuito3prin';
+import Pechoprin from '../src/circutos/Pechoprin';
 import {
   BrowserRouter,
   Switch,
@@ -71,7 +72,9 @@ function App() {
               </Route>
           <Route path="/bracircuito3_prin" component={Bracircuito3prin}>
               <Bracircuito3prin/>
-        
+          </Route>
+          <Route path="/pecho_prin" component={Pechoprin}>
+              <Pechprin/>
           </Route>
         </Switch>
         </BrowserRouter>

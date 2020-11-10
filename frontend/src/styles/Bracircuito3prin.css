@@ -16,7 +16,7 @@
     margin-top: 25px;
     color: #fff;
 }
-container1 p{
+.container1 p{
     font-family: serif;
     font-size: 30px;
     margin: 20px 0px 30px 0px ;
@@ -28,6 +28,15 @@ container1 p{
 .sal1{
     padding: 20px;
     display: flex;
+}
+.sal1 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 30px 30px 10px 30px;
+}
+.sal1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
 }
 .tijeras .sal1{
     width: 10%;
