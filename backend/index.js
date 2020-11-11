@@ -1,23 +1,31 @@
-const express = require('express');// declaración
-const app = express();//constructor de la clase Express
+const express = require('express');
+const app = express();
 
-const routes = require('./routes/routes');//crud
-const registro = require('./routes/registro');//crud
-const inicio = require('./routes/inicio');//crud
+const usuarios = require('./routes/usuarios');
+const usuario_entrenador = require('./routes/usuario_entrenador');
+const usuario_administrador = require('./routes/usuario_administrador');
 
-app.set('port',3000)
+const registro = require('./routes/registro');
+const registro_entrenador = require('./routes/registro_entrenador');
+const registro_administrador = require('./routes/registro_administrador');
 
 
-//middleware
+
+
+app.set('port', 4000);
+
 app.use(express.json());
 
-//ajustes
-app.use('/api',routes);// peticiones directas, acciones, callback
-app.use('/api/registro',registro)
-app.use('/api/inicio',inicio)
+//rutas
+app.use('/api/usuarios', usuarios);
+app.use('/api/usuario/entrenador', usuario_entrenador);
+app.use('/api/usuario/administrador', usuario_administrador);
+app.use('/api/registro', registro);
+app.use('/api/registro/entrenador', registro_entrenador);
+app.use('/api/registro/administrador', registro_administrador);
 
-app.listen(app.get('port'),()=>{
-console.log('Servidor corriendo en puerto '+app.get('port'));
 
+
+app.listen(app.get('port'), ()=>{
+ console.log(`Server on port ${app.get('port')}`);
 })
-
