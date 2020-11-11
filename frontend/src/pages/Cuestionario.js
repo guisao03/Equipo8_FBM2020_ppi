@@ -6,11 +6,9 @@ import '../styles/Cuestionario.css'
 class Cuestionario extends Component {
     state = { esflaco: "", esgordo: "", esnormal: ""};
     valueToState = ( {name, value, checked, type} ) => {
-        const checkBoxValue = checked
-        
-        this.setState({ checkBoxValue})
+        const  checkBoxValue = checked
+        this.setState({ checkBoxValue, })
       console.log(value,name,checked, type )
-
     };
 
     
@@ -30,7 +28,7 @@ class Cuestionario extends Component {
                         <input 
                         type="checkbox" 
                         name="esflaco"
-                        checked={checkBoxValue}
+                        value={true}
                         onChange={event => this.valueToState(event.target)}
                         /> 
                         </label><br/>
@@ -38,7 +36,7 @@ class Cuestionario extends Component {
                         <input
                          type="checkbox"
                          name="esnormal"
-                         checked={checkBoxValue}
+                         value={true}
                          onChange={event => this.valueToState(event.target)}
                          /> 
                          </label><br/>
@@ -46,7 +44,7 @@ class Cuestionario extends Component {
                         <input 
                         type="checkbox"
                         name="esgordo"
-                        checked={checkBoxValue}
+                        value={true}
                         onChange={event => this.valueToState(event.target)}
                         /> 
                         </label><br/>
