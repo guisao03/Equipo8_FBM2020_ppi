@@ -1,8 +1,8 @@
 .barrra{
-    width: 1309px;
+    width: 110%;
     background: rgb(52, 36, 199);
     display: flex;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 0px 10px 40px;
     margin-left: -130px;
     margin-top: -30px;
 }
@@ -30,7 +30,7 @@
     margin: 10px 45px 10px 45px;
     font-size: 25px;
     flex-wrap: wrap;
-    padding: 0px 900px 0px 0px;
+    
 }
 .estas{
     margin-left: 400px;

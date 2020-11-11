@@ -15,7 +15,7 @@ class Entrenamiento extends Component {
                 </section>
                 <section className="plann">
                     
-                    <button className="unoo" ><Link to="/abdomen_prin" className="un">Circuito 1<br/><p>Abdomen</p></Link></button>
+                    <button className="unoo" ><Link to="/abdomenprin" className="un">Circuito 1<br/><p>Abdomen</p></Link></button>
                     <button className="doss" ><Link className="dos">Circuito 2</Link></button>
                     <button className="tress"><Link className="tres">Circuito 3</Link></button>
                     <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>

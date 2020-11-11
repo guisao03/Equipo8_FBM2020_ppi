@@ -74,7 +74,7 @@ function App() {
               <Bracircuito3prin/>
           </Route>
           <Route path="/pecho_prin" component={Pechoprin}>
-              <Pechprin/>
+              <Pechoprin/>
           </Route>
         </Switch>
         </BrowserRouter>

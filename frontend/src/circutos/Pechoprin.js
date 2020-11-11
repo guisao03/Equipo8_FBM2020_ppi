@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
 import '../styles/pecho_prin.css'; 
 
-class Pechoprin extends component  {
+class Pechoprin extends Component  {
     render () {
         return(
         <div>
@@ -16,7 +16,7 @@ class Pechoprin extends component  {
                 <div className="container">
                     <p>Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea. </p>
                     <div className="salto">
-                        <ReactPlayer className="sal" url= {require('../videos2/salto.mp4 ')}
+                        <ReactPlayer className="sal" url=''
                         controls
                         muted
                         playing
@@ -28,7 +28,7 @@ class Pechoprin extends component  {
                          
                     </div>
                     <div className="flexion">
-                        <ReactPlayer className="flexion" url= {require('../videos2/flexion.mp4')}
+                        <ReactPlayer className="flexion" url=''
                         controls
                         muted
                         playing
@@ -40,7 +40,7 @@ class Pechoprin extends component  {
                        
                     </div>
                     <div className="fleciones abiertas">
-                        <ReactPlayer className="flexion" url= {require('../videos2/flexion_abierta.mp4')}
+                        <ReactPlayer className="flexion" url=''
                         controls
                         muted
                         playing
@@ -52,7 +52,7 @@ class Pechoprin extends component  {
                         
                     </div>
                     <div className="flexiones con apoyo">
-                        <ReactPlayer className="flexion" url= {require('../videos2/flexion_apoyo.mp4')}
+                        <ReactPlayer className="flexion" url=''
                         controls
                         muted
                         playing
@@ -64,7 +64,7 @@ class Pechoprin extends component  {
                         
                     </div>
                     <div className="triceps">
-                        <ReactPlayer className="triceps" url= {require('../videos2/triceps.mp4')}
+                        <ReactPlayer className="triceps" url=''
                         controls
                         muted
                         playing
@@ -76,7 +76,7 @@ class Pechoprin extends component  {
                          
                     </div>
                     <div className="VID_20201027.MP4">
-                        <ReactPlayer className="video" url= {require('../videos2/VID_20201027_1836405119.MP4')}
+                        <ReactPlayer className="video" url=''
                         controls
                         muted
                         playing
@@ -88,7 +88,7 @@ class Pechoprin extends component  {
                         
                     </div>
                     <div className="VID_20201102">
-                        <ReactPlayer className="cob" url= {require('../videos2/VID-20201102_165010860.mp4')}
+                        <ReactPlayer className="cob" url=''
                         controls
                         muted
                         playing
