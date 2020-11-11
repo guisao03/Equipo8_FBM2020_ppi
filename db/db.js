@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'base_datos_semana_8',
+    host: 'bvue38uo5zskfop92p87-mysql.services.clever-cloud.com',
+    user: 'u2v26xmqjatowj1y',
+    password: 'GDC6AmIdwOzCMOHJ3Urs',
+    database: 'bvue38uo5zskfop92p87',
     multipleStatements: true
 });
 
@@ -12,7 +12,7 @@ mysqlConnection.connect( (error) =>{
         console.error(error);
         return;
     } else {
-        console.log('Base de datos está conectada!');
+        console.log('Base de datos conectada');
     }
 })
 

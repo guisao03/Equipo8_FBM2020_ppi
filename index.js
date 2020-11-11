@@ -1,18 +1,29 @@
 const express = require('express');
 const app = express();
-const actores = require('./routes/actores');
-const modulos = require('./routes/modulos');
-const colegios = require('./routes/colegios');
+
+const usuarios = require('./routes/usuarios');
+const usuario_entrenador = require('./routes/usuario_entrenador');
+const usuario_administrador = require('./routes/usuario_administrador');
+
+const registro = require('./routes/registro');
+const registro_entrenador = require('./routes/registro_entrenador');
+const registro_administrador = require('./routes/registro_administrador');
 
 
-app.set('port', 4001);
+
+
+app.set('port', 4000);
 
 app.use(express.json());
 
 //rutas
-app.use('/api', actores);
-app.use('/api/modulos', modulos);
-app.use('/api/colegios', colegios);
+app.use('/api/usuarios', usuarios);
+app.use('/api/usuario/entrenador', usuario_entrenador);
+app.use('/api/usuario/administrador', usuario_administrador);
+app.use('/api/registro', registro);
+app.use('/api/registro/entrenador', registro_entrenador);
+app.use('/api/registro/administrador', registro_administrador);
+
 
 
 app.listen(app.get('port'), ()=>{
