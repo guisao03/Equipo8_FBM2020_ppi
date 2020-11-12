@@ -51,24 +51,24 @@ class Cuestionario extends Component {
                      </div>
                     </div>
                     <div className="preguntas">
-                    <h2>¿En que tipo de estado fisica crees que estas?</h2>
+                    <h2>¿En que rango de edad estas?</h2>
                     <div className="respuestas">
-                    <label>Flaco
+                    <label>15 - 17
                         <input type="checkbox"/> </label><br/>
-                        <label>Normal
+                        <label>18 - 29
                         <input type="checkbox"/> </label><br/>
-                        <label>Gordo
+                        <label>30 - 40 o mas
                         <input type="checkbox"/> </label><br/>
                      </div>
                     </div>
                     <div className="preguntas">
-                    <h2>¿En que tipo de estado fisica crees que estas?</h2>
+                    <h2>¿En que rango de peso crees que estas?</h2>
                     <div className="respuestas">
-                    <label>Flaco
+                    <label>40 - 60
                         <input type="checkbox"/> </label><br/>
-                        <label>Normal
+                        <label>60 - 80
                         <input type="checkbox"/> </label><br/>
-                        <label>Gordo
+                        <label>80 -120 o mas
                         <input type="checkbox"/> </label><br/>
                      </div>
                      <button className="estas"><Link className="listo" to="/usuario">!Estas listo¡</Link></button>

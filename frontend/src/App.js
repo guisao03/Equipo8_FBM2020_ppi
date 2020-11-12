@@ -67,7 +67,7 @@ function App() {
           <Route path="/cuestionario" component={Cuestionario}>
               <Cuestionario/>
           </Route>
-          <Route path="/abdomen_prin" component={Abdomenprin}>
+          <Route path="/abdomenprin" component={Abdomenprin}>
               <Abdomenprin/>
               </Route>
           <Route path="/bracircuito3_prin" component={Bracircuito3prin}>
