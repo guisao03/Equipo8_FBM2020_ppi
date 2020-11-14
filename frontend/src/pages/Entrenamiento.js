@@ -8,6 +8,7 @@ class Entrenamiento extends Component {
     render () {
         return(
             <div>
+                <div className="timo">
                 <div className="fondo">
                 <section className="barra">
                     <img src={Logo} />
@@ -22,6 +23,7 @@ class Entrenamiento extends Component {
                     <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
                 </section>
 
+                </div>
                 </div>
                 
             </div>

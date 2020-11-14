@@ -13,7 +13,7 @@ function Principal(props){
         <div>
             <Header/>
             
-            <main>
+            <main className="main">
             
 <h2 className="titulo ">Guía tu Cuerpo</h2>
 <section className="sepcion-uno">

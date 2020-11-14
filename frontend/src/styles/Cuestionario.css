@@ -1,9 +1,13 @@
+.todito{
+    width: 100%;
+    max-width: 100%;
+}
 .barrra{
-    width: 110%;
+    width: 100%;
     background: rgb(52, 36, 199);
     display: flex;
     padding: 10px 0px 10px 40px;
-    margin-left: -130px;
+    margin-left: 0px;
     margin-top: -30px;
 }
 .barrra img{
@@ -12,6 +16,7 @@
     height: 100px;
     margin-left: 120px;
     margin-top: 30px;
+    margin-left: -20px;
 
 }
 .barrra h1{
@@ -22,18 +27,20 @@
     margin-top: 50px;
 }
 .preguntas{
+    width: 100%;
     margin: 40px 40px 20px 40px;
     font-family: serif;
     font-size: 30px;
 }
 .respuestas{
+    width: 100%;
     margin: 10px 45px 10px 45px;
     font-size: 25px;
     flex-wrap: wrap;
     
 }
 .estas{
-    margin-left: 400px;
+    margin-left: 500px;
     width: 300px;
     height: 50px;
     border-radius: 30px;
@@ -43,4 +50,22 @@
     color: #fff;
     font-family: serif;
     font-size: 30px;
+}
+@media screen and (max-width: 800px){
+    .todito{
+        width: 100%;
+        max-width: 100%;
+    }
+    .barrra{
+        width: 100%; 
+    }
+    .barrra h1{
+        font-size: 30px;
+    }
+    .respuestas{
+        width: 100%;
+    }
+    .estas{
+        margin-left: 0px;
+    }
 }

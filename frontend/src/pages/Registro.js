@@ -8,8 +8,8 @@ class Registro extends Component {
     render (){
         return(
             <div>
-               <main>
-                   <img className="Avatar" src={Logo} alt=""/>
+               <main className="ma">
+                   <img className="Avatarr" src={Logo} alt=""/>
                    <div className="contenedor">
                        <div className="formulario">
                            <h2>Registrarse</h2>

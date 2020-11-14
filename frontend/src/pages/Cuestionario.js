@@ -17,6 +17,7 @@ class Cuestionario extends Component {
         return(
            
             <div>
+                <div className="todito">
                   <section className="barrra">
                     <img src={Logo} />
                     <h1>Debes responder estas preguntas para continuar</h1>
@@ -74,6 +75,7 @@ class Cuestionario extends Component {
                      <button className="estas"><Link className="listo" to="/usuario">!Estas listo¡</Link></button>
                     </div>
                     
+            </div>
             </div>
         );
 

@@ -1,3 +1,9 @@
+
+.todo{
+    width: 100%;
+    max-width: 100%;
+    
+}
 .sobre-nosotros {
     color: #007bff;
     font-family: serif;
@@ -7,17 +13,18 @@
     
 }
 
-.sepcion-uno {
+.seccion-uno {
     padding: 30px 50px 30px 50px;
     display: flex;
     margin-top: 80px;
 }
 
 .colum-uno {
-    width: 700px;
+    width: 100%;
     padding: 15px;
     font-family: serif;
 }
+
 
 .colum-uno .til {
     color: #007bff;
@@ -29,12 +36,13 @@
 
 .colum-dos {
     padding: 15px;
-    width: 700px;
+    width: 100%;
+    width: 100%;
 }
 
 .colum-dos img {
-    width: 450px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     margin: 10px 0px;
     margin-left: 30px;
     border-radius: 10px;
@@ -125,29 +133,30 @@ background: #3198f2(973, 100%, 27%, 0.9);
 }
 
   
-@media screen and (max-width: 480px) {
-    .sepcion-uno {
+@media screen and (max-width: 800px) {
+    .todo{
+        width: 100%;
+    }
+    .seccion-uno {
+        width: 100%;
         display: flex;
         padding: 0px 500px 0px 0px ;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
-    .colum-dos img,
+  
+   
+   
     .colum-tres img {
         width: 330px;
         box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
     }
     /*sepcion-dos*/
-    .sepcion-dos {
-        height: 1590px;
+    .seccion-dos {
+        width: 100%;
+        flex-direction: column;
     }
-    .imgen-equi {
-        /*box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);*/
-        margin-top: 15px;
-    }
-    /*sepcion-tres*/
-    .sepcion-tres {
-        padding: 30px 0px 100px;
-    }
+ 
+  
     .targetas .targeta h4 {
         margin-top: 40px;
         margin-bottom: 0px;
@@ -165,7 +174,7 @@ background: #3198f2(973, 100%, 27%, 0.9);
     .seccion-dos {
         display: flex;
         width: 100%;
-        height: 600px;
+        height: auto;
         background: #076585;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/Launo.jpg);
@@ -177,3 +186,4 @@ background: #3198f2(973, 100%, 27%, 0.9);
         position: relative;
         padding: 5px 50px 30px 50px;
     }
+     

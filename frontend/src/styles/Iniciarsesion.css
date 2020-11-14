@@ -1,6 +1,8 @@
 
 main {
-    padding-bottom: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
 }
 
 .navbar-toggler {
@@ -10,11 +12,14 @@ main {
 .conten {
     padding: 30px 30px 30px 30px;
     display: flex;
+    width: 100%;
+    max-width: 100%;
 }
 
 .columna-uno {
     margin: auto;
     margin-top: 50px;
+    width: 100%;
 }
 
 .COLUMNA {
@@ -40,6 +45,8 @@ main {
     border-radius: 50%;
     border: 2px solid #fff;
     left: calc(50% - 50px);
+    margin: auto;
+    margin-top: -65px;
 }
 
 .COLUMNA h2 {
@@ -113,4 +120,11 @@ main {
     margin: 5px;
     color: #fff;
     padding: 0px 15px 0px 15px;
+}
+@media screen and (max-width: 800px){
+    .COLUMNA{
+        width: 100%;
+        height: auto;
+    }
+
 }

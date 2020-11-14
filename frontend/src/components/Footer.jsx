@@ -4,8 +4,8 @@ import '../styles/Footer.css'
 
 function Footer(props) {
     return (
-        <footer>
-             <div class="icon-text-text">
+        <footer className="footer">
+            {/*   <div class="icon-text-text">
                 <ul class="social">
                     <li>
                         <a href="Correo:vallejo.timo15@gmail.com" target="_blank">
@@ -26,7 +26,7 @@ function Footer(props) {
                 <p class="text"><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, voluptas.</em></p>
 
 
-            </div>
+    </div> */}
             <div class="segundo-footer">
                 <p>
                     &copy; <a href="Index.html" target="_blank">Olympo Fitness</a>

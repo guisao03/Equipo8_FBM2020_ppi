@@ -16,7 +16,8 @@ function Nosotros (props){
     return (
         <div>
              <Header/>
-             <section className="sepcion-uno">
+             <div className="todo">
+             <section className="seccion-uno">
                  <div className="colum-uno">
                      <h2 className="til">Conoce un Poco de Nosotros</h2>
                      <p> Olympo Fitness es un grupo de 4 jóvenes estudiantes cada uno con un rol y una tarea especifica en este proyecto.</p>
@@ -76,6 +77,7 @@ function Nosotros (props){
                      </div>
                      </div>
              </section>
+             </div>
             <Footer/>
         </div>
         

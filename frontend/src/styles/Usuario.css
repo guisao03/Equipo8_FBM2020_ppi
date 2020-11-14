@@ -1,7 +1,10 @@
-.principal{
-    
+.timoo{
     width: 100%;
-    height: 650px;
+    max-width: 100%;
+}
+.principal{
+    width: 100%;
+    height: 600px;
     background: #076585;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/gimm.jpg);
@@ -14,8 +17,8 @@
     padding: 30px 50px 30px 0px;
 }
 .princi{
-    padding: 20px 50px 50px 50px;
-    margin-left: 500px ;
+    width: 100%;
+    margin-left: 40% ;
 }
 .princi img{
     border-radius: 50%;
@@ -23,14 +26,15 @@
     height: 200px;
 }
 .princi h1{
+    width: 90%;
     font-family: serif;
     margin-left: -100px;
     font-size: 70px;
     color: #fff;
 }
 .prin{
-    padding: 20px 50px 0px 50px;
-    margin-left: 120px;
+    width: 100%;
+    margin-left: 10%;
     font-family: serif;
     font-size: 40px;
     display: flex;
@@ -70,47 +74,43 @@
     position: relative;
     padding: 5px 50px 30px 50px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 800px){
+    .timoo{
+        width: 100%;
+        max-width: 100%;
+    }
     .principal{
         width: 100%;
-        height: 610px;
-        background: #076585;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/gimm.jpg);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, rgba(6, 9, 9, 0.413), #0c0a1764), url(../img/gimm.jpg);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        position: relative;
-        padding: 0px 50px 0px 50px ;
-        
+        height: auto;
     }
     .princi{
-        padding: 20px 20px 20px 70px;
-        margin-left: 0px ;
+        width: 100%;
+        margin-left: 0px;
+        margin-left: 10%;
     }
     .princi img{
-        width: 150px;
-        height: 150px;
+        margin: auto;
+        margin-left: 10%;
     }
     .princi h1{
         font-size: 35px;
-        margin-right: 0px;
-        padding-left: 70px;
-        
+        margin: auto;
     }
     .prin{
-        flex-wrap: wrap;
-        margin-left: 0px;
-        padding: 0px;
+        width: 100%;
+        flex-direction: column;
     }
     .plan{
-        width: 300px;
-        margin: 20px 0px 30px 0px;
+        width: 80%;
+        font-size: 25px;
     }
-    .calendario {
-        width: 300px;
-        margin: 0px;
+    .calendario{
+        width: 80%;
+        font-size: 25px;
     }
+
+
+    
    
     
 

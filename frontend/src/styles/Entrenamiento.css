@@ -1,5 +1,9 @@
+.timo{
+    width: 100%;
+    max-width: 100%;
+}
 .barra{
-    width: 1309px;
+    width: 100%;
     background: rgb(52, 36, 199);
     display: flex;
     padding: 10px 40px 10px 40px;

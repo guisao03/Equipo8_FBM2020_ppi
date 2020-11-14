@@ -1,6 +1,7 @@
 
-main {
-    padding: 30px;
+.ma {
+    width: 100%;
+    max-width: 100%;
 }
 
 .navbar-toggler {
@@ -25,14 +26,15 @@ main {
     margin-top: 50px;
 }
 
-.Avatar {
+ .Avatarr {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 2px solid #fff;
-    margin-left: 575px;
-    margin-bottom: 40px;
-    position: absolute;
+    margin-left: 595px;
+    margin-bottom: -120px;
+    
+
 }
 
 .contenedor h2 {
@@ -106,4 +108,13 @@ main {
     margin: 5px;
     color: #fff;
     padding: 15px 0px 15px 0px;
+}
+@media screen and (max-width: 800px){
+    .contenedor{
+        width: 100%;
+        height: auto;
+    }
+    .Avatarr{
+        margin-left: 120px;
+    }
 }

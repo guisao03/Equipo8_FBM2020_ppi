@@ -9,6 +9,7 @@ class Usuario extends Component  {
     render () {
         return (
             <div>
+                <div className="timoo">
                 <section className="principal">
                     <div className="princi">
                     <img src={Logo} />
@@ -28,6 +29,7 @@ class Usuario extends Component  {
                     </Link>
                  </div>
                 </section>
+                </div>
             </div>
         );
 

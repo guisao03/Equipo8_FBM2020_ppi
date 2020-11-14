@@ -1,6 +1,7 @@
 footer {
     background: #bdbdbd;
     padding: 30px 0px 0px 0px;
+    display: none;
 }
 
 .contenedor-footer {
@@ -63,9 +64,18 @@ nav ul li a {
 
 .segundo-footer p a:hover {
     color: #fff;
-} @media screen and (max-width: 480px) {
+} @media screen and (max-width: 800px) {
       /*footer*/
-      .icon-text-text p {
-        margin: auto;
-    }
+   .footer{
+       width: 100%;
+   }
+   .social{
+       width: 100%;
+   }
+   .text{
+       width: 100%;
+   }
+   .segundo-footer{
+       width: 100%;
+   }
  }
