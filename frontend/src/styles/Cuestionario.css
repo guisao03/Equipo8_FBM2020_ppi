@@ -39,10 +39,13 @@
     flex-wrap: wrap;
     
 }
+.listoo{
+    width: 100%;
+    height: auto;
+    
+}
 .estas{
-    margin-left: 500px;
-    width: 300px;
-    height: 50px;
+    margin-left: 600px;
     border-radius: 30px;
     background:   #007bff;
 }
@@ -58,14 +61,23 @@
     }
     .barrra{
         width: 100%; 
+        max-width: 100%;
+    }
+    .preguntas{
+        margin: 10px;
     }
     .barrra h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .respuestas{
         width: 100%;
+        max-width: 100%;
+    }
+    .listoo{
+        width: 100%;
+        height: auto;
     }
     .estas{
-        margin-left: 0px;
+    margin-left: 60px;
     }
 }

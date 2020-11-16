@@ -9,11 +9,11 @@ class Entrenamiento extends Component {
         return(
             <div>
                 <div className="timo">
-                <div className="fondo">
                 <section className="barra">
                     <img src={Logo} />
                     <h1>Plan de Entrenamiento</h1>
                 </section>
+                <div className="fondo">
                 <section className="plann">
                     
                     <button className="unoo" ><Link to="/abdomenprin" className="un">Circuito 1<br/><p>Abdomen</p></Link></button>

@@ -14,13 +14,13 @@
 }
 
 .seccion-uno {
-    padding: 30px 50px 30px 50px;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     margin-top: 80px;
 }
 
 .colum-uno {
-    width: 100%;
     padding: 15px;
     font-family: serif;
 }
@@ -43,8 +43,7 @@
 .colum-dos img {
     width: 100%;
     height: auto;
-    margin: 10px 0px;
-    margin-left: 30px;
+    
     border-radius: 10px;
     box-shadow: 12px 12px 3px 1px rgba(133, 133, 133, 0.578);
 }
@@ -140,7 +139,6 @@ background: #3198f2(973, 100%, 27%, 0.9);
     .seccion-uno {
         width: 100%;
         display: flex;
-        padding: 0px 500px 0px 0px ;
         flex-direction: column;
     }
   
@@ -155,7 +153,7 @@ background: #3198f2(973, 100%, 27%, 0.9);
         width: 100%;
         flex-direction: column;
     }
- 
+
   
     .targetas .targeta h4 {
         margin-top: 40px;

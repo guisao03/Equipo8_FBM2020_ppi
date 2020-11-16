@@ -1,11 +1,20 @@
+.tim{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
 .ba{
+    width: 100%;
     background: rgb(52, 36, 199);
     display: flex;
-    padding:  10px 40px 10px 40px;
+    max-width: 100%;
+    height: 110px;
 }
 .ba img{
     width: 100px;
     height: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
     border-radius: 50%;
 }
 
@@ -16,23 +25,27 @@
     margin-top: 25px;
     color: #fff;
 }
-.container p{
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 40px;
+}
+.coontainer p{
     font-family: serif;
     font-size: 30px;
     margin: 20px 0px 30px 0px ;
 }
 .salto{
-    padding: 50px;
+    padding: 30px;
     display: flex;
+    margin: auto;
 }
-.salto .sal{
-    width: 10%;
-    height: 5%;
-}
+
 .salto h2{
     font-family: serif;
     font-size: 50px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .salto p{
     margin: 0px 30px 0px 30px;
@@ -40,7 +53,7 @@
 }
 
 .crunch{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .crunch .crun{
@@ -50,14 +63,15 @@
 .crunch h2{
     font-family: serif;
     font-size: 50px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .crunch p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 .elevacion{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .elevacion .ele{
@@ -67,14 +81,15 @@
 .elevacion h2{
     font-family: serif;
     font-size: 40px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .elevacion p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 .escalada{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .escalada .esca{
@@ -84,14 +99,15 @@
 .escalada h2{
     font-family: serif;
     font-size: 50px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 0px;
+    text-align: center;
 }
 .escalada p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 .talon{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .talon .tal{
@@ -101,14 +117,15 @@
 .talon h2{
     font-family: serif;
     font-size: 50px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .talon p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 .twist{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .twist .twi{
@@ -118,14 +135,15 @@
 .twist h2{
     font-family: serif;
     font-size: 50px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .twist p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 .cobra{
-    padding: 50px;
+    padding: 30px;
     display: flex;
 }
 .cobra .cob{
@@ -135,21 +153,18 @@
 .cobra h2{
     font-family: serif;
     font-size: 40px;
-    margin: 30px 30px 10px 30px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
 }
 .cobra p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 
+
 .siguien{
-    margin-left: 1000px;
-    padding: 0px 0px 30px 0px;
-    
-}
-.siguien{
-    margin-left: 1000px;
-    padding: 0px 0px 30px 0px;
+    margin-left: 85%;
+    margin-top: 2%;
 }
 .sig{
     background: #007bff;
@@ -161,4 +176,81 @@
     color: #fff;
     font-family: serif;
     font-size: 20px;
+}
+@media screen and (max-width: 800px){
+.tim{
+    width: 100%;
+    max-width: 100%;
+}
+.ba{
+    width: 100%;
+}
+.ba h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.ba img{
+    margin-left: 10px;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+}
+.coontainer p{
+    font-size: 20px;
+}
+.salto{
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.sal{
+    margin-left: 30px;
+}
+
+.crunch{
+    flex-direction: column;
+    padding: 10px;
+}
+.crun{
+    margin-left: 30px;
+}
+.elevacion{
+    flex-direction: column;
+    padding: 10px;
+}
+.ele{
+    margin-left: 30px;
+}
+.escalada{
+    flex-direction: column;
+    padding: 10px;
+}
+.esca{
+    margin-left: 30px;
+}
+.talon{
+    flex-direction: column;
+    padding: 10px;
+}
+.tal{
+    margin-left: 30px;
+}
+.twist{
+    flex-direction: column;
+    padding: 10px;
+}
+.twi{
+    margin-left: 30px;
+}
+.cobra{
+    flex-direction: column;
+    padding: 10px;
+}
+.cob{
+    margin-left: 30px;
+}
+.siguien{
+    margin-left: 60%;
+}
 }

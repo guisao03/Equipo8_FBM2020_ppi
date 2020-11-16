@@ -72,7 +72,9 @@ class Cuestionario extends Component {
                         <label>80 -120 o mas
                         <input type="checkbox"/> </label><br/>
                      </div>
+                     <div className="litoo">
                      <button className="estas"><Link className="listo" to="/usuario">!Estas listo¡</Link></button>
+                     </div>
                     </div>
                     
             </div>
