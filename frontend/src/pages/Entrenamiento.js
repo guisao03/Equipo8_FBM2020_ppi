@@ -16,10 +16,10 @@ class Entrenamiento extends Component {
                 <div className="fondo">
                 <section className="plann">
                     
-                    <button className="unoo" ><Link to="/abdomenprin" className="un">Circuito 1<br/><p>Abdomen</p></Link></button>
-                    <button className="doss" ><Link className="dos">Circuito 2</Link></button>
-                    <button className="tress"><Link className="tres">Circuito 3</Link></button>
-                    <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>
+                    <button className="unoo" ><Link to="/abdomen" className="un">Circuito 1<br/><p>Abdomen</p></Link></button>
+                    <button className="doss" ><Link to="/brazos" className="dos">Circuito 2<br/><p>Brazos</p></Link> </button>
+                    <button className="tress"><Link to="/pecho" className="tres">Circuito 3<br/><p>Pecho</p></Link></button>
+                    <button className="cuatroo"><Link className="cuatro">Circuito 4<br/><p>Piernas</p></Link></button>
                     <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
                 </section>
 

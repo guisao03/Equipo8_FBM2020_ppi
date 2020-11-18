@@ -52,8 +52,19 @@
     font-family: serif;
     font-size: 30px;
     text-align: center;
+}
 
 
+.bott{
+    background:  rgb(43, 22, 235);
+    color: #fff;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    font-family: serif;
+    font-size: 30px;
+    padding: 7px;
+    margin-left: 94%;
+    margin-top: -56%;
 }
 @media screen and (max-width: 800px){
 .cal{
@@ -78,5 +89,11 @@
 .calendarioo{
     width: 100%;
     font-size: 20px;
+}
+.bott{
+    
+    margin-left: 80%;
+    font-size: 20px;
+   
 }
 }

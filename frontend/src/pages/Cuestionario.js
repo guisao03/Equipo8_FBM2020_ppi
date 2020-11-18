@@ -4,11 +4,16 @@ import Logo from '../img/LOGO.jpg'
 import '../styles/Cuestionario.css'
 
 class Cuestionario extends Component {
-    state = { esflaco: "", esgordo: "", esnormal: ""};
-    valueToState = ( {name, value, checked, type} ) => {
-        const  checkBoxValue = checked
-        this.setState({ checkBoxValue, })
-      console.log(value,name,checked, type )
+    state = {form:{ esflaco: "", esgordo: "", esnormal: "" },checkBoxValue:"" };
+    valueToState = (e) => {
+       
+        this.setState({ 
+        form:{
+            ...this.state.form, 
+             [e.target.name]: e.target.value
+        }
+        })
+      console.log(this.state.form )
     };
 
     
@@ -29,24 +34,27 @@ class Cuestionario extends Component {
                         <input 
                         type="checkbox" 
                         name="esflaco"
-                        value={true}
-                        onChange={event => this.valueToState(event.target)}
+                        value={this.state.form.esflaco}
+                        onChange={this.valueToState}
+                        checked={this.state.checkBoxValue}
                         /> 
                         </label><br/>
                         <label>Normal
                         <input
                          type="checkbox"
                          name="esnormal"
-                         value={true}
-                         onChange={event => this.valueToState(event.target)}
+                         value={this.state.form.esnormal}
+                         onChange={this.valueToState}
+                         checked={this.state.checkBoxValue}
                          /> 
                          </label><br/>
                         <label>Gordo
                         <input 
                         type="checkbox"
                         name="esgordo"
-                        value={true}
-                        onChange={event => this.valueToState(event.target)}
+                        value={this.state.form.esgordo}
+                        onChange={this.valueToState}
+                        checked={this.state.checkBoxValue}
                         /> 
                         </label><br/>
                      </div>

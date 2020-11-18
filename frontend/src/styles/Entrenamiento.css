@@ -97,8 +97,18 @@
     font-size: 50px;
     font-family: serif;
 }
+.doss:hover{
+    opacity: 0.6;
+}
 .dos{
     color: #fff;
+}
+
+.dos p{
+    font-size: 25px;
+}
+.dos:hover{
+    color: rgb(182, 179, 179);
 }
 .tress{
     color: #fff;
@@ -119,8 +129,18 @@
     font-size: 50px;
     font-family: serif;
 }
+.tress:hover{
+    opacity: 0.6;
+}
 .tres{
     color: #fff;
+}
+
+.tres p{
+    font-size: 25px;
+}
+.tres:hover{
+    color: rgb(182, 179, 179);
 }
 .cuatroo{
     color: #fff;
@@ -141,8 +161,18 @@
     font-size: 50px;
     font-family: serif;
 }
+.cuatroo:hover{
+    opacity: 0.6;
+}
 .cuatro{
     color: #fff;
+}
+
+.cuatro p{
+    font-size: 25px;
+}
+.cuatro:hover{
+    color: rgb(182, 179, 179);
 }
 .cincoo{
     color: #fff;
