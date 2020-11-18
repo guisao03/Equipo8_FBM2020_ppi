@@ -13,7 +13,6 @@ const Calendario = () => {
         setDate(date)
     }
 
-
     return (
         <div>
             <div className="cal">

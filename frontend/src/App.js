@@ -12,9 +12,9 @@ import Retroalimentacion from '../src/pages/Retroalimentacion';
 import Cuestionario from '../src/pages/Cuestionario';
 import Entrenamientodos from './pages/Entrenamientodos';
 import Entrenamientotres from './pages/Entrenamientotres';
-import Abdomenprin from './circutos/Abdomenprin';
-import Bracircuito3prin from './circutos/Bracircuito3prin';
-import Pechoprin from '../src/circutos/Pechoprin';
+import Abdomen from './circutoflaco/Abdomen';
+import Brazos from './circutoflaco/Brazos';
+import Pecho from '../src/circutoflaco/Pecho';
 import {
   BrowserRouter,
   Switch,
@@ -67,14 +67,14 @@ function App() {
           <Route path="/cuestionario" component={Cuestionario}>
               <Cuestionario/>
           </Route>
-          <Route path="/abdomenprin" component={Abdomenprin}>
-              <Abdomenprin/>
+          <Route path="/abdomen" component={Abdomen}>
+              <Abdomen/>
               </Route>
-          <Route path="/bracircuito3_prin" component={Bracircuito3prin}>
-              <Bracircuito3prin/>
+          <Route path="/brazos" component={Brazos}>
+              <Brazos/>
           </Route>
-          <Route path="/pecho_prin" component={Pechoprin}>
-              <Pechoprin/>
+          <Route path="/pecho" component={Pecho}>
+              <Pecho/>
           </Route>
         </Switch>
         </BrowserRouter>

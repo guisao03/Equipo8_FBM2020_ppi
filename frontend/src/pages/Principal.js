@@ -42,7 +42,7 @@ function Principal(props){
 </section>
 
 <section className="sepcion-tres">
-    <div className="columna-uno">
+    <div className="columna-unoo">
         <h3 className="titulo-tres">Explora tu Cuerpo</h3>
         <p> Date el lujo de conocerte, analiza tu cuerpo y dale lo que necesita, cuídate a ti mismo y en un futuro tal vez cercano, serás muy bien recompensado </p>
     </div>

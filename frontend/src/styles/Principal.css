@@ -123,11 +123,12 @@
                   
                     .sepcion-tres {
                         display: flex;
-                        padding: 40px 50px 40px 50px;
+                        padding: 40px;
+                        margin-left: 50px;
                     }
                     
-                    .columna-uno {
-                        width: 500px;
+                    .columna-unoo {
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -136,7 +137,7 @@
                     }
                     
                     .columna-dos {
-                        width: 700px;
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -145,7 +146,7 @@
                     }
                     
                     .columna-tres {
-                        width: 500px;
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -189,8 +190,9 @@
                          .sepcion-tres{
                             width: 100%;
                             flex-direction: column;
+                            margin-left: 0px;
                          }
-                         .columna-uno{
+                         .columna-unoo{
                              width: 100%;
                          }
                          .columna-dos{
