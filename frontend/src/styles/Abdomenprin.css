@@ -35,128 +35,163 @@
     font-size: 30px;
     margin: 20px 0px 30px 0px ;
 }
-.salto{
+.A1{
     padding: 30px;
     display: flex;
     margin: auto;
 }
 
-.salto h2{
+.A1 h2{
     font-family: serif;
     font-size: 50px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.salto p{
+.A1 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
 
-.crunch{
+.A2{
     padding: 30px;
     display: flex;
 }
-.crunch .crun{
+.A2 .a2{
     width: 10%;
     height: 5%;
 }
-.crunch h2{
+.A2 h2{
     font-family: serif;
     font-size: 50px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.crunch p{
+.A2 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
-.elevacion{
+.A3{
     padding: 30px;
     display: flex;
 }
-.elevacion .ele{
+.A3 .a3{
     width: 10%;
     height: 5%;
 }
-.elevacion h2{
+.A3 h2{
     font-family: serif;
     font-size: 40px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.elevacion p{
+.A3 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
-.escalada{
+.A4{
     padding: 30px;
     display: flex;
 }
-.escalada .esca{
+.A4 .a4{
     width: 10%;
     height: 5%;
 }
-.escalada h2{
+.A4 h2{
     font-family: serif;
     font-size: 50px;
     margin: 20px 20px 10px 0px;
     text-align: center;
 }
-.escalada p{
+.A4 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
-.talon{
+.A5{
     padding: 30px;
     display: flex;
 }
-.talon .tal{
+.A5 .a5{
     width: 10%;
     height: 5%;
 }
-.talon h2{
+.A5 h2{
     font-family: serif;
     font-size: 50px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.talon p{
+.A5 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
-.twist{
+.A6{
     padding: 30px;
     display: flex;
 }
-.twist .twi{
+.A6 .a6{
     width: 10%;
     height: 5%;
 }
-.twist h2{
+.A6 h2{
     font-family: serif;
     font-size: 50px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.twist p{
+.A6 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
-.cobra{
+.A7{
     padding: 30px;
     display: flex;
 }
-.cobra .cob{
+.A7 .a7{
     width: 10%;
     height: 5%;
 }
-.cobra h2{
+.A7 h2{
     font-family: serif;
     font-size: 40px;
     margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.cobra p{
+.A7 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.A8{
+    padding: 30px;
+    display: flex;
+}
+.A8 .a8{
+    width: 10%;
+    height: 5%;
+}
+.A8 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.A8 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}.A9{
+    padding: 30px;
+    display: flex;
+}
+.A9 .a9{
+    width: 10%;
+    height: 5%;
+}
+.A9 h9{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.A9 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
 }
@@ -199,56 +234,70 @@
 .coontainer p{
     font-size: 20px;
 }
-.salto{
+.A1{
     flex-direction: column;
     padding: 10px;
     
 }
-.sal{
-    margin-left: 30px;
+.a1{
+    margin-left: 50px;
+    
 }
 
-.crunch{
+.A2{
     flex-direction: column;
     padding: 10px;
 }
-.crun{
-    margin-left: 30px;
+.a2{
+    margin-left: 50px;
 }
-.elevacion{
+.A3{
     flex-direction: column;
     padding: 10px;
 }
-.ele{
-    margin-left: 30px;
+.a3{
+    margin-left: 50px;
 }
-.escalada{
+.A4{
     flex-direction: column;
     padding: 10px;
 }
-.esca{
-    margin-left: 30px;
+.a4{
+    margin-left: 50px;
 }
-.talon{
+.A5{
     flex-direction: column;
     padding: 10px;
 }
-.tal{
-    margin-left: 30px;
+.a5{
+    margin-left: 50px;
 }
-.twist{
+.A6{
     flex-direction: column;
     padding: 10px;
 }
-.twi{
-    margin-left: 30px;
+.a6{
+    margin-left: 50px;
 }
-.cobra{
+.A7{
     flex-direction: column;
     padding: 10px;
 }
-.cob{
-    margin-left: 30px;
+.a7{
+    margin-left: 50px;
+}.A8{
+    flex-direction: column;
+    padding: 10px;
+}
+.a8{
+    margin-left: 50px;
+}
+.A9{
+    flex-direction: column;
+    padding: 10px;
+}
+.a9{
+    margin-left: 50px;
 }
 .siguien{
     margin-left: 60%;

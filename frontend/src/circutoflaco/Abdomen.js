@@ -17,12 +17,11 @@ class Abdomenprin extends Component {
                 </section>
                 <div className="coontainer">
                     <p>Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea. </p>
-                    <div className="salto">
-                        <ReactPlayer className="sal" url='https://youtu.be/2AO_1J-K4Os'
-                        controls
+                    <div className="A1">
+                        <ReactPlayer className="a1" url='https://youtu.be/oqFC409hZGI'
                         playing
                         muted
-                        width="80%"
+                        width="50%"
                         height="auto"
                          />
                          <div className="informacion">
@@ -31,9 +30,9 @@ class Abdomenprin extends Component {
                          </div>
                          
                     </div>
-                    <div className="crunch">
-                        <ReactPlayer className="crun" url='https://youtu.be/z8gyFoADiBQ'
-                        width="80%"
+                    <div className="A2">
+                        <ReactPlayer className="a2" url='https://youtu.be/6pUiP5pOkpk'
+                        width="50%"
                         height="auto"
                         muted
                         playing
@@ -44,9 +43,9 @@ class Abdomenprin extends Component {
                          </div>
                        
                     </div>
-                    <div className="elevacion">
-                        <ReactPlayer className="ele" url='https://youtu.be/ct1-Qqh9aYk'
-                       width="80%"
+                    <div className="A3">
+                        <ReactPlayer className="a3" url='https://youtu.be/RWNjsb5qKhc'
+                       width="50%"
                        height="auto"
                         muted
                         playing
@@ -57,9 +56,9 @@ class Abdomenprin extends Component {
                          </div>
                         
                     </div>
-                    <div className="escalada">
-                        <ReactPlayer className="esca" url='https://youtu.be/I6jrtisKL8o'
-                        width="80%"
+                    <div className="A4">
+                        <ReactPlayer className="a4" url='https://youtu.be/tD24TlTHa74'
+                        width="50%"
                         height="auto"
                         muted
                         playing
@@ -70,9 +69,9 @@ class Abdomenprin extends Component {
                          </div>
                         
                     </div>
-                    <div className="talon">
-                        <ReactPlayer className="tal" url='https://youtu.be/uk6Qk6PzMu4'
-                        width="80%"
+                    <div className="A5">
+                        <ReactPlayer className="a5" url='https://youtu.be/Dj5dloZJ0qQ'
+                        width="50%"
                         height="auto"
                         muted
                         playing
@@ -83,9 +82,9 @@ class Abdomenprin extends Component {
                          </div>
                          
                     </div>
-                    <div className="twist">
-                        <ReactPlayer className="twi" url='https://youtu.be/3PYDAMs9Ckg'
-                        width="80%"
+                    <div className="A6">
+                        <ReactPlayer className="a6" url='https://youtu.be/ubCEYz90xHQ'
+                        width="50%"
                         height="auto"
                         muted
                         playing
@@ -96,9 +95,35 @@ class Abdomenprin extends Component {
                          </div>
                         
                     </div>
-                    <div className="cobra">
-                        <ReactPlayer className="cob" url='https://youtu.be/upJjiSrLR_A'
-                        width="80%"
+                    <div className="A7">
+                        <ReactPlayer className="a7" url='https://youtu.be/SkhXAcAlfTk'
+                        width="50%"
+                        height="auto"
+                        muted
+                        playing
+                         />
+                         <div className="informacion">
+                         <h2><strong>Estiramiento de cobra</strong></h2> <br/>
+                         <p>la explicacion de que ejercios trabaja</p>
+                         </div>
+                        
+                    </div>
+                    <div className="A8">
+                        <ReactPlayer className="a8" url='https://youtu.be/sMxwk-gHdXI'
+                       width="50%"
+                        height="auto"
+                        muted
+                        playing
+                         />
+                         <div className="informacion">
+                         <h2><strong>Estiramiento de cobra</strong></h2> <br/>
+                         <p>la explicacion de que ejercios trabaja</p>
+                         </div>
+                        
+                    </div>
+                    <div className="A8">
+                        <ReactPlayer className="a9" url='https://youtu.be/lBEsFIrKeZI'
+                        width="50%"
                         height="auto"
                         muted
                         playing

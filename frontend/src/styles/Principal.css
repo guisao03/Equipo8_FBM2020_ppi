@@ -39,7 +39,9 @@
                         flex-direction: column;
                         /* margin: auto; */
                     }
-                    
+                    .tilulo-dos{
+                        text-align: center;
+                    }
                     .contenedor-dos img {
                         width: 100%;
                         height: auto;
@@ -51,6 +53,7 @@
                         padding: 20px 15px 20px 15px;
                         text-align: center;
                         font-family: serif;
+                        
                     }
                     
                     .contenedor-tres {
@@ -98,10 +101,9 @@
                     }
                     
                     .imagen img {
-                        width: 100%;
+                        width: 50%;
                         height: auto;
                         margin: auto;
-                        
                         border-radius: 10px;
                         display: flex;
                     }
@@ -113,11 +115,11 @@
                     }
                     
                     .texto {
+                        width: 40%;
                         color: rgb(184, 184, 184);
                         font-family: serif;
                         font-size: 20px;
-                        margin-top: 175px;
-                        padding: 15px;
+                        padding: 5px;
                     }
                     /* sepcion-tres*/
                   
@@ -180,8 +182,8 @@
                              width: 100%;
                              flex-direction: column;
                          }
-                         .imagen{
-                             width: 100%;
+                         .sepcion-dos .imagen{
+                             display: none;
                          }
                          .texto{
                              width: 100%;
