@@ -9,10 +9,13 @@ const registro = require('./routes/registro');
 const registro_entrenador = require('./routes/registro_entrenador');
 const registro_administrador = require('./routes/registro_administrador');
 
+const cors = require('cors'); 
 
+//Uso de cors
+app.use(cors({origin: '*'})); 
+// conectar con el link de su frontend app.use(cors({origin: 'https://ppi-app.olympo.app/'}))
 
-
-app.set('port', 4000);
+app.set('port', process.env.PORT || 4000);
 
 app.use(express.json());
 
