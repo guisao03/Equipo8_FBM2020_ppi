@@ -63,7 +63,7 @@ function App() {
           <Route path="/entrenamiento_dos" component={Entrenamientodos}>
               <Entrenamientodos/>
           </Route>
-          <Route path="/entrenamiento_tres" component={Entrenamientotres}>
+          <Route path="/entrenamientotres" component={Entrenamientotres}>
               <Entrenamientotres/>
           </Route>
           <Route path="/retroalimentacion" component={Retroalimentacion}>

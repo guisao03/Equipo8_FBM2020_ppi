@@ -16,7 +16,8 @@ class Piernagor extends Component {
                     <h1>trabajo de cardio para pienas</h1>
                 </section>
                 <div className="coontainer">
-                    <p>Fragmento de un escrito con unidad temática, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente también por llevar letra mayúscula inicial y un espacio en blanco en el margen izquierdo de alineación del texto principal de la primera línea. </p>
+                    <p> lo cierto es que a veces no tenemos en cuenta que para adelgazar las piernas lo esencial es realizar ejercicios que tonifiquen esa zona específicamente y complementarlos con actividades
+                         cardiovasculares que nos ayuden a quemar la grasa sobrante concentrada en ciertas partes del cuerpo. </p>
                     <div className="D1">
                         <ReactPlayer className="d1" url=''
                         playing

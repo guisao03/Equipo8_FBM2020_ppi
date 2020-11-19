@@ -4,7 +4,7 @@ import Logo from '../img/LOGO.jpg'
 import { Link } from 'react-router-dom';
 import '../styles/Entrenamiento.css';
 
-class Entrenamiento_tres extends Component {
+class Entrenamientotres extends Component {
     render () {
         return(
             <div>
@@ -13,15 +13,17 @@ class Entrenamiento_tres extends Component {
                     <img src={Logo} />
                     <h1>Plan de Entrenamiento</h1>
                 </section>
+                <div className="fondo">
                 <section className="plann">
                     
-                    <button className="unoo" ><Link to="/abdomengor" className="un">Circuito 1</Link></button>
-                    <button className="doss" ><Link to="/brazosgor" className="dos">Circuito 2</Link></button>
-                    <button className="tress"><Link to="/piernagor" className="tres">Circuito 3</Link></button>
+                    <button className="unoo" ><Link to="/Abdomengor" className="un">Circuito 1<br/><p>Abdomengor</p> </Link></button>
+                    <button className="doss" ><Link to="/Brazosgor" className="dos">Circuito 2<br/><p>Brazosgor</p></Link></button>
+                    <button className="tress"><Link to="/Piernagor" className="tres">Circuito 3<br/><p>Piernagor</p></Link></button>
                     <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>
                     
                     <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
                 </section>
+                </div>
 
                 </div>
                 
@@ -30,4 +32,4 @@ class Entrenamiento_tres extends Component {
 
     }
 }
-export default Entrenamiento_tres;
+export default Entrenamientotres;

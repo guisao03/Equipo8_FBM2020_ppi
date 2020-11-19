@@ -18,7 +18,7 @@ class Retroalimentacion extends Component {
                     <h1>Ya puedes continuar con el siguinete circuito</h1>
                 </div>
                 <div >
-                <button className="siguiente"><Link className="letra" to="/entrenamiento">Suiguiente</Link></button>
+                <button className="siguiente"><Link className="letra" to="/entrenamientotres">Suiguiente</Link></button>
                 </div>
             </div>
         );

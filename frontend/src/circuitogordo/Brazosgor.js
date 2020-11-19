@@ -16,7 +16,8 @@ class Brazosgor extends Component {
                     <h1>trabajo de cardio para brazos</h1>
                 </section>
                 <div className="coontainer">
-                    <p>  </p>
+                    <p> La grasa acumulada en los brazos, conocida en el mundo anglosajón como bingo wings, puede aparecer en las mujeres debido a unos niveles demasiado bajos de testosterona. esto no quiere decir que no a los hombres no se les acumulen esta grasa, que somos menos propensos a tenerla si, ya que no se lleva una vida activa y nos descuidamos por esa parte.
+                        eliminar esta grasa localizada te facilita la flexibilidad de los brazos y dejas atras el dormimiento de las manos.</p>
                     <div className="C1">
                         <ReactPlayer className="c1" url=''
                         playing
