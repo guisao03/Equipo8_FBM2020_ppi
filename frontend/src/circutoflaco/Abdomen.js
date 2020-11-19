@@ -26,7 +26,8 @@ class Abdomenprin extends Component {
                          />
                          <div className="informacion">
                          <h2><strong> Salto de Tijeras</strong></h2> <br/>
-                         <p>la explicacion de que ejercios trabaja</p>
+                         <p>15 repeticiones</p>
+                         <p>la expliacacion </p>
                          </div>
                          
                     </div>

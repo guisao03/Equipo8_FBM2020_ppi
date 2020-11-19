@@ -4,21 +4,38 @@ import Logo from '../img/LOGO.jpg'
 import '../styles/Cuestionario.css'
 
 class Cuestionario extends Component {
-    state = {form:{ esflaco: "", esgordo: "", esnormal: "" },checkBoxValue:"" };
-    valueToState = (e) => {
-       
-        this.setState({ 
-        form:{
-            ...this.state.form, 
-             [e.target.name]: e.target.value
-        }
-        })
-      console.log(this.state.form )
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: true,
+            error: null,
+            form: {
+               tipocuerpo: ""
+
+            },
+        };
+    }
+
+
+    handleChange = (event) => {
+        const target = event.target;
+        const value = target.value;
+        console.log(value);
+        const name = target.name;
+
+
+        this.setState ({
+            ...this.state,
+            form: {
+                ...this.state.form,
+                [name]: value,
+            },
+        });
     };
+
 
     
     render() { 
-        const { checkBoxValue } = this.state
         return(
            
             <div>
@@ -27,37 +44,27 @@ class Cuestionario extends Component {
                     <img src={Logo} />
                     <h1>Debes responder estas preguntas para continuar</h1>
                 </section>
+
                 <div className="preguntas">
                     <h2>¿En que tipo de estado fisica crees que estas?</h2>
                     <div className="respuestas">
-                    <label>Flaco 
-                        <input 
-                        type="checkbox" 
-                        name="esflaco"
-                        value={this.state.form.esflaco}
-                        onChange={this.valueToState}
-                        checked={this.state.checkBoxValue}
-                        /> 
-                        </label><br/>
-                        <label>Normal
-                        <input
-                         type="checkbox"
-                         name="esnormal"
-                         value={this.state.form.esnormal}
-                         onChange={this.valueToState}
-                         checked={this.state.checkBoxValue}
-                         /> 
-                         </label><br/>
-                        <label>Gordo
-                        <input 
-                        type="checkbox"
-                        name="esgordo"
-                        value={this.state.form.esgordo}
-                        onChange={this.valueToState}
-                        checked={this.state.checkBoxValue}
-                        /> 
-                        </label><br/>
-                     </div>
+                    <label htmlFor="state">
+                        Seleccione uno de ellos
+                    </label><br/>
+
+                        <select
+                        id="tipocuerpo"
+                        required=""
+                        name="tipocuerpo"
+                        onChange={this.handleChange}
+                        >
+                            
+                            <option value="flaco">Flaco</option>
+                            <option value="normal">Normal</option>
+                            <option value="gordo">Gordo</option>
+                        
+                        </select>
+                    </div>
                     </div>
                     <div className="preguntas">
                     <h2>¿En que rango de edad estas?</h2>
@@ -88,10 +95,12 @@ class Cuestionario extends Component {
                      </div>
                     </div>
                     
-            </div>
+                 </div>
             </div>
         );
 
     }
 }
+
+
 export default Cuestionario;

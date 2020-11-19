@@ -18,7 +18,7 @@ class Entrenamiento_dos extends Component {
                     <button className="doss" ><Link className="dos">Circuito 2</Link></button>
                     <button className="tress"><Link className="tres">Circuito 3</Link></button>
                     <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>
-                    <button className="cincoo"><Link className="cinco">Circuito 5</Link></button>
+                    
                     <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
                 </section>
 
