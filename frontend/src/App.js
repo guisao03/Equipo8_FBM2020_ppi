@@ -15,6 +15,11 @@ import Entrenamientotres from './pages/Entrenamientotres';
 import Abdomen from './circutoflaco/Abdomen';
 import Brazos from './circutoflaco/Brazos';
 import Pecho from '../src/circutoflaco/Pecho';
+import Abdomengor from '../src/circuitogordo/Abdomengor';
+import Brazosgor from '../src/circuitogordo/Brazosgor';
+
+import Piernagor from '../src/circuitogordo/Piernagor';
+
 import {
   BrowserRouter,
   Switch,
@@ -75,6 +80,15 @@ function App() {
           </Route>
           <Route path="/pecho" component={Pecho}>
               <Pecho/>
+          </Route>
+          <Route path="/Abdomengor" component={Abdomengor}>
+              <Abdomengor/>
+          </Route>
+          <Route path="/Brazosgor" component={Brazosgor}>
+              <Brazosgor/>
+          </Route>
+              <Route path="/Piernagor" component={Piernagor}>
+              <Piernagor/>
           </Route>
         </Switch>
         </BrowserRouter>

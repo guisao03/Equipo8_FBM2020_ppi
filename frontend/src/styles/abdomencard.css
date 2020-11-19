@@ -1,0 +1,610 @@
+.tim{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ba{
+    width: 100%;
+    background: rgb(52, 36, 199);
+    display: flex;
+    max-width: 100%;
+    height: 110px;
+}
+.ba img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.ba h1{
+    font-family: serif;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 40px;
+}
+.coontainer p{
+    font-family: serif;
+    font-size: 30px;
+    margin: 20px 0px 30px 0px ;
+}
+.B1{
+    padding: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.B1 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+.B2{
+    padding: 30px;
+    display: flex;
+}
+.B2 .b2{
+    width: 10%;
+    height: 5%;
+}
+.B2 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B2 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B3{
+    padding: 30px;
+    display: flex;
+}
+.B3 .B3{
+    width: 10%;
+    height: 5%;
+}
+.B3 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.A3 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B4{
+    padding: 30px;
+    display: flex;
+}
+.B4 .b4{
+    width: 10%;
+    height: 5%;
+}
+.B4 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 0px;
+    text-align: center;
+}
+.B4 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B5{
+    padding: 30px;
+    display: flex;
+}
+.B5 .b5{
+    width: 10%;
+    height: 5%;
+}
+.B5 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B5 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B6{
+    padding: 30px;
+    display: flex;
+}
+.B6 .b6{
+    width: 10%;
+    height: 5%;
+}
+.B6 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B6 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B7{
+    padding: 30px;
+    display: flex;
+}
+.B7 .b7{
+    width: 10%;
+    height: 5%;
+}
+.B7 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B7 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B8{
+    padding: 30px;
+    display: flex;
+}
+.B8 .b8{
+    width: 10%;
+    height: 5%;
+}
+.B8 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B8 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}.B9{
+    padding: 30px;
+    display: flex;
+}
+.B9 .b9{
+    width: 10%;
+    height: 5%;
+}
+.B9 h9{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B9 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+
+.siguien{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+.sig{
+    background: #007bff;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+}
+.si{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+.tim{
+    width: 100%;
+    max-width: 100%;
+}
+.ba{
+    width: 100%;
+}
+.ba h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.ba img{
+    margin-left: 10px;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+}
+.coontainer p{
+    font-size: 20px;
+}
+.B1{
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.b1{
+    margin-left: 50px;
+    
+}
+
+.B2{
+    flex-direction: column;
+    padding: 10px;
+}
+.b2{
+    margin-left: 50px;
+}
+.B3{
+    flex-direction: column;
+    padding: 10px;
+}
+.b3{
+    margin-left: 50px;
+}
+.B4{
+    flex-direction: column;
+    padding: 10px;
+}
+.b4{
+    margin-left: 50px;
+}
+.B5{
+    flex-direction: column;
+    padding: 10px;
+}
+.b5{
+    margin-left: 50px;
+}
+.B6{
+    flex-direction: column;
+    padding: 10px;
+}
+.b6{
+    margin-left: 50px;
+}
+.B7{
+    flex-direction: column;
+    padding: 10px;
+}
+.b7{
+    margin-left: 50px;
+}.B8{
+    flex-direction: column;
+    padding: 10px;
+}
+.b8{
+    margin-left: 50px;
+}
+.B9{
+    flex-direction: column;
+    padding: 10px;
+}
+.b9{
+    margin-left: 50px;
+}
+.siguien{
+    margin-left: 60%;
+}
+}
+.tim{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ba{
+    width: 100%;
+    background: rgb(52, 36, 199);
+    display: flex;
+    max-width: 100%;
+    height: 110px;
+}
+.ba img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.ba h1{
+    font-family: serif;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 40px;
+}
+.coontainer p{
+    font-family: serif;
+    font-size: 30px;
+    margin: 20px 0px 30px 0px ;
+}
+.B1{
+    padding: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.B1 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+.B2{
+    padding: 30px;
+    display: flex;
+}
+.B2 .b2{
+    width: 10%;
+    height: 5%;
+}
+.B2 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B2 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B3{
+    padding: 30px;
+    display: flex;
+}
+.B3 .b3{
+    width: 10%;
+    height: 5%;
+}
+.B3 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B3 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B4{
+    padding: 30px;
+    display: flex;
+}
+.B4 .b4{
+    width: 10%;
+    height: 5%;
+}
+.B4 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 0px;
+    text-align: center;
+}
+.B4 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B5{
+    padding: 30px;
+    display: flex;
+}
+.B5 .b5{
+    width: 10%;
+    height: 5%;
+}
+.B5 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B5 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B6{
+    padding: 30px;
+    display: flex;
+}
+.B6 .b6{
+    width: 10%;
+    height: 5%;
+}
+.B6 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B6 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B7{
+    padding: 30px;
+    display: flex;
+}
+.B7 .b7{
+    width: 10%;
+    height: 5%;
+}
+.B7 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B7 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.B8{
+    padding: 30px;
+    display: flex;
+}
+.B8 .b8{
+    width: 10%;
+    height: 5%;
+}
+.B8 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B8 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}.B9{
+    padding: 30px;
+    display: flex;
+}
+.B9 .b9{
+    width: 10%;
+    height: 5%;
+}
+.B9 h9{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.B9 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+
+.siguien{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+.sig{
+    background: #007bff;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+}
+.si{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+.tim{
+    width: 100%;
+    max-width: 100%;
+}
+.ba{
+    width: 100%;
+}
+.ba h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.ba img{
+    margin-left: 10px;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+}
+.coontainer p{
+    font-size: 20px;
+}
+.B1{
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.b1{
+    margin-left: 50px;
+    
+}
+
+.B2{
+    flex-direction: column;
+    padding: 10px;
+}
+.b2{
+    margin-left: 50px;
+}
+.B3{
+    flex-direction: column;
+    padding: 10px;
+}
+.b3{
+    margin-left: 50px;
+}
+.B4{
+    flex-direction: column;
+    padding: 10px;
+}
+.b4{
+    margin-left: 50px;
+}
+.B5{
+    flex-direction: column;
+    padding: 10px;
+}
+.b5{
+    margin-left: 50px;
+}
+.B6{
+    flex-direction: column;
+    padding: 10px;
+}
+.b6{
+    margin-left: 50px;
+}
+.B7{
+    flex-direction: column;
+    padding: 10px;
+}
+.b7{
+    margin-left: 50px;
+}.B8{
+    flex-direction: column;
+    padding: 10px;
+}
+.b8{
+    margin-left: 50px;
+}
+.B9{
+    flex-direction: column;
+    padding: 10px;
+}
+.b9{
+    margin-left: 50px;
+}
+.siguien{
+    margin-left: 60%;
+}
+}
