@@ -243,6 +243,9 @@
     margin-left: 50px;
     
 }
+.a1 p{
+    font-size: 15px;
+}
 
 .A2{
     flex-direction: column;

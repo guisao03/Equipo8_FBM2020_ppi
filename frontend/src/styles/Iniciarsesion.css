@@ -34,10 +34,6 @@ main {
     border: 2px solid rgb(215, 222, 222);
 }
 
-.columna-uno .Avatar {
-    margin-left: 10px;
-    margin-top: -65px;
-}
 
 .COLUMNA .Avatar {
     width: 100px;
@@ -47,6 +43,7 @@ main {
     left: calc(50% - 50px);
     margin: auto;
     margin-top: -65px;
+    margin-left: 65px;
 }
 
 .COLUMNA h2 {
