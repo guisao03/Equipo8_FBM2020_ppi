@@ -19,9 +19,9 @@ function Nosotros (props){
              <div className="todo">
              <section className="seccion-uno">
                  <div className="colum-uno">
-                     <h2 className="til">Conoce un Poco de Nosotros</h2>
+                     <h2 className="til">Conoce un poco de nosotros...</h2>
                      <p> Olympo Fitness es un grupo de 4 jóvenes estudiantes cada uno con un rol y una tarea especifica en este proyecto.</p>
-                     <p>Los cuáles decidieron ayudar a las personas que sufren de alguna enfermedad en cuanto a su salud física e incluso los que todavía no la tienen pero que la quieren prevenir, con una aplicación y/o pagina web hecha con la finalidad de instruir a todo el que quiera darle un estilo de vida a su cuerpo saludable, gracias a los ejercicios propuestos por la misma aplicación.</p>
+                     <p>Los cuáles decidieron ayudar a las personas que sufren de alguna enfermedad en cuanto a su salud física e incluso los que todavía no la tienen pero que la quieren prevenir, con una aplicación web hecha con la finalidad de instruir a todo el que quiera darle un estilo de vida a su cuerpo saludable, gracias a los ejercicios propuestos por la misma aplicación.</p>
                  </div>
                  <div className="colum-dos">
                      <img src ={Uno} alt="" />
@@ -38,7 +38,6 @@ function Nosotros (props){
                              <img src={Icon} alt=""/>
                              <p>Geison Guisao</p>
                              <p>Programador</p>
-                             <p>Investigador</p>
                          </div>
                         </div> 
                      </div>
@@ -49,7 +48,7 @@ function Nosotros (props){
                          <div className="hover-galeria">
                              <img src={Icon} alt=""/>
                              <p>Dairon Andres Quiroga</p>
-                             <p>No se sabe</p>
+                             <p>Programador</p>
                          </div>
                      </div>
                      </div>
@@ -71,7 +70,6 @@ function Nosotros (props){
                              <img src={Icon} alt=""/>
                              <p>Timoteo Vallejo Coronado</p>
                              <p>Lider</p>
-                             <p>Diseñador</p>
                              <p>Programador</p>
                          </div>
                      </div>

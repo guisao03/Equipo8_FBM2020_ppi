@@ -16,16 +16,16 @@ class Iniciarsesion extends Component {
                             <div className="COLUMNA">
                                 <img className="Avatar" src={Logo} alt=""/>
                                 <h2>
-                                    Iniciar Sesion
+                                    Iniciar sesión
                                 </h2>
                                 <from>
                                     <input type="text" placeholder="Correo"/>
                                     <input type="text" placeholder="Contraseña"/>
-                                    <Link to="/cuestionario">
+                                    <Link to="/usuario">
                                     <input type="submit" value="Ingresar"/>
                                     </Link>
                                     <div className="pregunta">
-                                        <a ><Link to="/registro">¿No te has Registrado?</Link></a>
+                                        <a ><Link to="/registro">¿No te has registrado?</Link></a>
                                     </div>
                                 </from>
                             </div>

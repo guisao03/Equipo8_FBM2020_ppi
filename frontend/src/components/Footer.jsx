@@ -29,7 +29,7 @@ function Footer(props) {
     </div> */}
             <div class="segundo-footer">
                 <p>
-                    &copy; <a href="Index.html" target="_blank">Olympo Fitness</a>
+                     <a>Olympo Fitness &copy;</a>
                 </p>
             </div>
         </footer>
