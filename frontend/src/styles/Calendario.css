@@ -55,6 +55,16 @@
 
 
 }
+
+.botinn{
+ font-family: serif;
+ color: #fff;
+ background: rgb(52, 36, 199);
+ padding: 10px;
+ border-radius: 30px;
+ border: 1px solid #fff;
+
+}
 @media screen and (max-width: 800px){
 .cal{
     width: 100%;
@@ -78,5 +88,12 @@
 .calendarioo{
     width: 100%;
     font-size: 20px;
+}
+.botinn{
+    margin-left: 80%;
+    margin-bottom: -20%;
+}
+.botin{
+    margin-top: 10px;
 }
 }
