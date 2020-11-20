@@ -18,7 +18,7 @@ class Usuario2 extends Component  {
                  <div className="prin">
                     <Link to="/entrenamiento">
                     <button className="plan" type="submit">
-                        Plan de Entrenamiento
+                        Plan de entrenamiento
                     </button>
                     </Link>
                     <Link to="/calendario">

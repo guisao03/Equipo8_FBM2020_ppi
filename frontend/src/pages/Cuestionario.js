@@ -52,7 +52,7 @@ class Cuestionario extends Component {
                      </div>
                     </div>
                     <div className="preguntas">
-                    <h2>¿En que rango de edad estas?</h2>
+                    <h2>¿En que rango de edad estás?</h2>
                     <div className="respuestas">
                     <label>15 - 17
                         <input type="checkbox"/> </label><br/>
@@ -63,7 +63,7 @@ class Cuestionario extends Component {
                      </div>
                     </div>
                     <div className="preguntas">
-                    <h2>¿En que rango de peso crees que estas?</h2>
+                    <h2>¿En que rango de peso crees que estás?</h2>
                     <div className="respuestas">
                     <label>40 - 60
                         <input type="checkbox"/> </label><br/>
@@ -75,7 +75,7 @@ class Cuestionario extends Component {
                      <div className="litoo">
 
                      <button className="estas">
-                         <Link className="listo" to="/usuario">!Estas listo¡</Link>
+                         <Link className="listo" to="/usuario">Siguiente</Link>
                          </button>
                      </div>
                     </div>

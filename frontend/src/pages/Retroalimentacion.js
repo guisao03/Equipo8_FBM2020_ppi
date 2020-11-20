@@ -13,12 +13,12 @@ class Retroalimentacion extends Component {
                     <h1>Buen trabajo</h1>
                     </div>
                 <div className="felizz">
-                    <h1>Felicidades has terminado el circuito</h1>
+                    <h1>¡Felicidades has terminado el circuito!</h1>
                     <img className="medalla" src={Medalla} />
-                    <h1>Ya puedes continuar con el siguinete circuito</h1>
+                    <h1>Ya puedes continuar con el siguiente circuito...</h1>
                 </div>
                 <div >
-                <button className="siguiente"><Link className="letra" to="/entrenamiento">Suiguiente</Link></button>
+                <button className="siguiente"><Link className="letra" to="/entrenamiento">Siguiente</Link></button>
                 </div>
             </div>
         );
