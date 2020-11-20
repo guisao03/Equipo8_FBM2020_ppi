@@ -17,14 +17,15 @@ import Brazos from './circutoflaco/Brazos';
 import Pecho from '../src/circutoflaco/Pecho';
 import Abdomengor from '../src/circuitogordo/Abdomengor';
 import Brazosgor from '../src/circuitogordo/Brazosgor';
-
 import Piernagor from '../src/circuitogordo/Piernagor';
+import Cardio from '../src/circuitogordo/Cardio';
 
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
+
 
 
 
@@ -89,6 +90,9 @@ function App() {
           </Route>
               <Route path="/Piernagor" component={Piernagor}>
               <Piernagor/>
+          </Route>
+          <Route path="/Cardio" component={Cardio}>
+              <Cardio/>
           </Route>
         </Switch>
         </BrowserRouter>
