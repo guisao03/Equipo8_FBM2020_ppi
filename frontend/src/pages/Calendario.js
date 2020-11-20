@@ -6,39 +6,33 @@ import '../styles/Calendario.css'
 
 
 
-const Calendariooo = () => {
+const Calendario = () => {
     const [date, setDate] = useState(new Date());
 
     const  onChange = date => {
         setDate(date)
     }
 
-        return (
-            <div>
-                <div className="cal">
-                <div className="barrita">
-                        <img src={Logo} />
-                        <h1>Calendario</h1>
-                        </div>
-                    <section className="barraa">
-                        
-                    <div className="calendarioo">
-                <Calendar onChange={onChange} value={date} />
-                {console.log(date)}
+    return (
+        <div>
+            <div className="cal">
+            <div className="barrita">
+                    <img src={Logo} />
+                    <h1>Calendario</h1>
                     </div>
-                    <div className="baotona">
-                        <a className="bott" href="/usuario">Atras</a>
-                    </div>
-                    </section>
-                    </div>
-            </div>
-    
-           
-        );
-    
+                <section className="barraa">
+                    
+                <div className="calendarioo">
+            <Calendar onChange={onChange} value={date} />
+            {console.log(date)}
+                </div>
+                </section>
+                </div>
+        </div>
 
-   
+       
+    );
 };
 
-render(<Calendar />, document.querySelector("#root"));
-export default Calendariooo; 
+render(<Calendario />, document.querySelector("#root"));
+export default Calendario; 

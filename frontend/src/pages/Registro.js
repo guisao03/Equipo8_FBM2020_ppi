@@ -12,7 +12,7 @@ class Registro extends Component {
                    <img className="Avatarr" src={Logo} alt=""/>
                    <div className="contenedor">
                        <div className="formulario">
-                           <h2>Registrarse</h2>
+                           <h2>Registro</h2>
                         {/*ruta de acuerdo al backend*/}
                            <form action="localhost:4000/Registro">
                                

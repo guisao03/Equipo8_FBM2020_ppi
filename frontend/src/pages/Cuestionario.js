@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../styles/Cuestionario.css'
 
 class Cuestionario extends Component {
+<<<<<<< HEAD
     constructor(props) {
         super(props);
         this.state = {
@@ -32,6 +33,13 @@ class Cuestionario extends Component {
                 [name]: value,
             },
         });
+=======
+    state = { esflaco: "", esgordo: "", esnormal: ""};
+    valueToState = ( {name, value, checked, type} ) => {
+        const  checkBoxValue = checked
+        this.setState({ checkBoxValue, })
+      console.log(value,name,checked, type )
+>>>>>>> 31c9795dcb87443716fa98597880eb62b0da63d0
     };
 
     handleSubmit = (e) => {
@@ -70,6 +78,7 @@ class Cuestionario extends Component {
                 <div className="preguntas">
                     <h2>¿En que tipo de estado fisica crees que estas?</h2>
                     <div className="respuestas">
+<<<<<<< HEAD
                     <label htmlFor="state">
                     </label><br/>
 
@@ -86,10 +95,37 @@ class Cuestionario extends Component {
                         
                         </select>
                     </div>
+=======
+                    <label>Flaco 
+                        <input 
+                        type="checkbox" 
+                        name="esflaco"
+                        value={true}
+                        onChange={event => this.valueToState(event.target)}
+                        /> 
+                        </label><br/>
+                        <label>Normal
+                        <input
+                         type="checkbox"
+                         name="esnormal"
+                         value={true}
+                         onChange={event => this.valueToState(event.target)}
+                         /> 
+                         </label><br/>
+                        <label>Gordo
+                        <input 
+                        type="checkbox"
+                        name="esgordo"
+                        value={true}
+                        onChange={event => this.valueToState(event.target)}
+                        /> 
+                        </label><br/>
+                     </div>
+>>>>>>> 31c9795dcb87443716fa98597880eb62b0da63d0
                     </div>
                    
                     <div className="preguntas">
-                    <h2>¿En que rango de edad estas?</h2>
+                    <h2>¿En que rango de edad estás?</h2>
                     <div className="respuestas">
                     <label>15 - 17
                         <input type="checkbox"/> </label><br/>
@@ -100,7 +136,7 @@ class Cuestionario extends Component {
                      </div>
                     </div>
                     <div className="preguntas">
-                    <h2>¿En que rango de peso crees que estas?</h2>
+                    <h2>¿En que rango de peso crees que estás?</h2>
                     <div className="respuestas">
                     <label>40 - 60
                         <input type="checkbox"/> </label><br/>
@@ -112,7 +148,7 @@ class Cuestionario extends Component {
                      <div className="litoo">
 
                      <button className="estas">
-                         <Link className="listo" to="/usuario">!Estas listo¡</Link>
+                         <Link className="listo" to="/usuario">Siguiente</Link>
                          </button>
                      </div>
                     </div>  
