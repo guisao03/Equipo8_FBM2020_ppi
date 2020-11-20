@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../img/LOGO.jpg'
+import axios from 'axios';
 import '../styles/Cuestionario.css'
 
 class Cuestionario extends Component {
@@ -33,7 +34,26 @@ class Cuestionario extends Component {
         });
     };
 
-
+    handleSubmit = (e) => {
+        e.prevenDefault();
+        const data = this.state.form;
+        axios
+        .post("localhost:4000/cuestionario", data)
+        .then((Cv) => {
+            this.setState({
+                loading: true,
+            });
+            this.props.history.push("/usuario");
+            this.props.history.push("/usuario2");
+            this.props.history.push("/usuario3");
+        })
+        .catch((error) => {
+            this.setState ( {
+                loading: true,
+                error: error,
+            });
+        });
+    };
     
     render() { 
         return(
@@ -45,11 +65,12 @@ class Cuestionario extends Component {
                     <h1>Debes responder estas preguntas para continuar</h1>
                 </section>
 
+                
+
                 <div className="preguntas">
                     <h2>¿En que tipo de estado fisica crees que estas?</h2>
                     <div className="respuestas">
                     <label htmlFor="state">
-                        Seleccione uno de ellos
                     </label><br/>
 
                         <select
@@ -58,7 +79,7 @@ class Cuestionario extends Component {
                         name="tipocuerpo"
                         onChange={this.handleChange}
                         >
-                            
+                            <option value="">Seleccione...</option>
                             <option value="flaco">Flaco</option>
                             <option value="normal">Normal</option>
                             <option value="gordo">Gordo</option>
@@ -66,6 +87,7 @@ class Cuestionario extends Component {
                         </select>
                     </div>
                     </div>
+                   
                     <div className="preguntas">
                     <h2>¿En que rango de edad estas?</h2>
                     <div className="respuestas">
@@ -93,9 +115,9 @@ class Cuestionario extends Component {
                          <Link className="listo" to="/usuario">!Estas listo¡</Link>
                          </button>
                      </div>
-                    </div>
-                    
+                    </div>  
                  </div>
+                 
             </div>
         );
 
