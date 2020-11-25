@@ -2,13 +2,8 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-const usuarios = require('./routes/usuarios');
-const usuario_entrenador = require('./routes/usuario_entrenador');
-const usuario_administrador = require('./routes/usuario_administrador');
-
 const registro = require('./routes/registro');
-const registro_entrenador = require('./routes/registro_entrenador');
-const registro_administrador = require('./routes/registro_administrador');
+
 
 //importante para conexion del front con el back
 //Uso de cors
@@ -20,14 +15,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.json());
 
 //rutas
-// app.use('/api/usuarios', usuarios);
-// app.use('/api/usuario/entrenador', usuario_entrenador);
-// app.use('/api/usuario/administrador', usuario_administrador);
 app.use('/api/registro', registro);
-app.use('/api/registro/entrenador', registro_entrenador);
-app.use('/api/registro/administrador', registro_administrador);
-
-
 
 app.listen(app.get('port'), ()=>{
  console.log(`Server on port ${app.get('port')}`);
