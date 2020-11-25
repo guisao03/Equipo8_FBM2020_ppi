@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
 const usuarios = require('./routes/usuarios');
 const usuario_entrenador = require('./routes/usuario_entrenador');
@@ -9,17 +10,19 @@ const registro = require('./routes/registro');
 const registro_entrenador = require('./routes/registro_entrenador');
 const registro_administrador = require('./routes/registro_administrador');
 
+//importante para conexion del front con el back
+//Uso de cors
+app.use(cors({origin: '*'}));
+// conectar con el link de su frontend app.use(cors({origin: 'https://ppi-app.vercel.app/'}))
 
-
-
-app.set('port', 4000);
+app.set('port', process.env.PORT || 3000);
 
 app.use(express.json());
 
 //rutas
-app.use('/api/usuarios', usuarios);
-app.use('/api/usuario/entrenador', usuario_entrenador);
-app.use('/api/usuario/administrador', usuario_administrador);
+// app.use('/api/usuarios', usuarios);
+// app.use('/api/usuario/entrenador', usuario_entrenador);
+// app.use('/api/usuario/administrador', usuario_administrador);
 app.use('/api/registro', registro);
 app.use('/api/registro/entrenador', registro_entrenador);
 app.use('/api/registro/administrador', registro_administrador);
