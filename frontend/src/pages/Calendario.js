@@ -26,8 +26,13 @@ const Calendario = () => {
             <Calendar onChange={onChange} value={date} />
             {console.log(date)}
                 </div>
-                </section>
+                <div className="botin">
+                    <a className="botinn" href="/usuario"> Atras </a>
                 </div>
+                </section>
+                
+                </div>
+                
         </div>
 
        

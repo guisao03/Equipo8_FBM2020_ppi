@@ -99,6 +99,15 @@
 .dos{
     color: #fff;
 }
+.dos p{
+    font-size: 20px;
+}
+.dos:hover{
+    color: rgb(182, 179, 179);
+}
+.dos p:hover{
+    color: rgb(182, 179, 179);
+}
 .tress{
     color: #fff;
     margin: 20px;
@@ -121,6 +130,15 @@
 .tres{
     color: #fff;
 }
+.tres p{
+    font-size: 20px;
+}
+.tres:hover{
+    color: rgb(182, 179, 179);
+}
+.tres p:hover{
+    color: rgb(182, 179, 179);
+}
 .cuatroo{
     color: #fff;
     margin: 20px;
@@ -142,6 +160,15 @@
 }
 .cuatro{
     color: #fff;
+}
+.cuatro p{
+    font-size: 20px;
+}
+.cuatro:hover{
+    color: rgb(182, 179, 179);
+}
+.cuatro p:hover{
+    color: rgb(182, 179, 179);
 }
 .cincoo{
     color: #fff;
