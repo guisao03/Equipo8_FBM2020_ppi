@@ -1,15 +1,58 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../img/LOGO.jpg'
+import axios from 'axios';
 import '../styles/Cuestionario.css'
 
 class Cuestionario extends Component {
-    state = { esflaco: "", esgordo: "", esnormal: ""};
-    valueToState = ( {name, value, checked, type} ) => {
-        const  checkBoxValue = checked
-        this.setState({ checkBoxValue, })
-      console.log(value,name,checked, type )
-    };
+   constructor(props) {
+       super(props);
+       this.state = {
+           loading: true,
+           error: null,
+           form: {
+               tipocuerpo: ""
+           },
+       };
+   }
+
+   handleChange = (event) => {
+       const target = event.target;
+       const value = target.value;
+       console.log(value);
+       const name = target.name;
+       
+       
+       this.setState ( {
+           ...this.state,
+           form:{
+               ...this.state.form,
+                [name]: value,
+           },
+       } );
+};
+
+handleSubmit = (e) => {
+    e.prevenDefault();
+    const data = this.state.form;
+    axios
+    .post("http://localhost:3000/api/registro/usuario/nuevo", data)
+    .then((response) => {
+        this.setState( {
+            loading: true,
+        });
+        this.props.history.push("/usuario");
+        this.props.history.push("/usuario2");
+        this.props.history.push("/usuario3"); 
+        
+    })
+    .catch((error) => {
+        this.setState ( {
+            error: error,
+            
+        });
+    });
+};
 
     
     render() { 
@@ -25,30 +68,19 @@ class Cuestionario extends Component {
                 <div className="preguntas">
                     <h2>¿En que tipo de estado fisica crees que estas?</h2>
                     <div className="respuestas">
-                    <label>Flaco 
-                        <input 
-                        type="checkbox" 
-                        name="esflaco"
-                        value={true}
-                        onChange={event => this.valueToState(event.target)}
-                        /> 
-                        </label><br/>
-                        <label>Normal
-                        <input
-                         type="checkbox"
-                         name="esnormal"
-                         value={true}
-                         onChange={event => this.valueToState(event.target)}
-                         /> 
-                         </label><br/>
-                        <label>Gordo
-                        <input 
-                        type="checkbox"
-                        name="esgordo"
-                        value={true}
-                        onChange={event => this.valueToState(event.target)}
-                        /> 
-                        </label><br/>
+                    
+
+                    <select
+                    id="tipocuerpo"
+                    required=""
+                    name="tipocuerpo"
+                    onChange={this.handleChange}
+                    >
+                        <option value="">Seleccione...</option>
+                        <option value="esflaco">Delgado</option>
+                        <option value="esnormal">Trosa</option>
+                        <option value="esgordo">Obesa</option>
+                    </select>
                      </div>
                     </div>
                     <div className="preguntas">

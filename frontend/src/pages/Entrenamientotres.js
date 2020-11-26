@@ -8,27 +8,21 @@ class Entrenamiento_tres extends Component {
     render () {
         return(
             <div>
-                <div className="fondo">
-                <section className="barra">
+            <section className="barra">
                     <img src={Logo} />
                     <h1>Plan de entrenamiento</h1>
                 </section>
+                <div className="fondo">
+                
                 <section className="plann">
                     
 
-                    <button className="unoo" ><Link  className="un">Circuito 1</Link></button>
-                    <button className="doss" ><Link className="dos">Circuito 2</Link></button>
-                    <button className="tress"><Link className="tres">Circuito 3</Link></button>
-                    <button className="cuatroo"><Link className="cuatro">Circuito 4</Link></button>
+                    <button className="unoo" ><Link to="/abdomengordo" className="un">Circuito 1<p>Abdomen</p></Link></button>
+                    <button className="doss" ><Link to="/brazosgor" className="dos">Circuito 2<p>Brazos</p></Link></button>
+                    <button className="tress"><Link to="/piernasgor" className="tres">Circuito 3<p>Piernas</p></Link></button>
+                    <button className="cuatroo"><Link to="/cardio" className="cuatro">Circuito 4<p>Cardio</p></Link></button>
                    
-                    <button className="atras"><Link className="atra" to="/usario">Atras</Link></button>
-                    <button className="unoo" ><Link className="un">Circuito 1<br/><p>Abdomen</p></Link></button>
-                    <button className="doss" ><Link className="dos">Circuito 2<br/><p>Brazos</p></Link></button>
-                    <button className="tress"><Link className="tres">Circuito 3<br/><p>Piernas</p></Link></button>
-                    <button className="cuatroo"><Link className="cuatro">Circuito 4<br/><p>Pecho</p></Link></button>
-                    <button className="cincoo"><Link className="cinco">Circuito 5</Link></button>
-                    <button className="atras"><Link className="atra" to="/">Inicio</Link></button>
-
+                    <button className="atras"><Link className="atra" to="/">inicio</Link></button>
                 </section>
 
                 </div>

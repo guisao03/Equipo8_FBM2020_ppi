@@ -35,172 +35,165 @@
     font-size: 30px;
     margin: 20px 0px 30px 0px ;
 }
-.A1{
+.C1{
     padding: 30px;
     display: flex;
     margin: auto;
 }
 
+.C1 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.C1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
 
-.A1 h2{
-    font-family: serif;
-    font-size: 50px;
-    text-align: center;
-}
-.A1 p{
-    margin: 0px 30px 0px 30px;
-    font-size: 17px;
-    text-align: center;
-}
-
-.A2{
+.C2{
     padding: 30px;
     display: flex;
 }
-.A2 .a2{
+.C2 .c2{
     width: 10%;
     height: 5%;
 }
-.A2 h2{
+.C2 h2{
     font-family: serif;
     font-size: 50px;
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A2 p{
+.C2 p{
     margin: 0px 30px 0px 30px;
-    font-size: 17px;
-    text-align: center;
+    font-size: 25px;
 }
-.A3{
+.C3{
     padding: 30px;
     display: flex;
 }
-.A3 .a3{
+.C3 .c3{
     width: 10%;
     height: 5%;
 }
-.A3 h2{
+.C3 h2{
     font-family: serif;
     font-size: 40px;
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A3 p{
+.C3 p{
     margin: 0px 30px 0px 30px;
-    font-size: 17px;
-    text-align: center;
+    font-size: 25px;
 }
-.A4{
+.C4{
     padding: 30px;
     display: flex;
 }
-.A4 .a4{
+.C4 .c4{
     width: 10%;
     height: 5%;
 }
-.A4 h2{
+.C4 h2{
     font-family: serif;
     font-size: 50px;
-
+    margin: 20px 20px 10px 0px;
     text-align: center;
 }
-.A4 p{
+.C4 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
 }
-.A5{
+.C5{
     padding: 30px;
     display: flex;
 }
-.A5 .a5{
+.C5 .c5{
     width: 10%;
     height: 5%;
 }
-.A5 h2{
+.C5 h2{
     font-family: serif;
     font-size: 50px;
-    
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A5 p{
+.C5 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
 }
-.A6{
+.C6{
     padding: 30px;
     display: flex;
 }
-.A6 .a6{
+.C6 .c6{
     width: 10%;
     height: 5%;
 }
-.A6 h2{
+.C6 h2{
     font-family: serif;
     font-size: 50px;
-   
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A6 p{
+.C6 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
 }
-.A7{
+.C7{
     padding: 30px;
     display: flex;
 }
-.A7 .a7{
+.C7 .c7{
     width: 10%;
     height: 5%;
 }
-.A7 h2{
+.C7 h2{
     font-family: serif;
     font-size: 40px;
-    
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A7 p{
+.C7 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
 }
-.A8{
+.C8{
     padding: 30px;
     display: flex;
 }
-.A8 .a8{
+.C8 .c8{
     width: 10%;
     height: 5%;
 }
-.A8 h2{
+.C8 h2{
     font-family: serif;
     font-size: 40px;
-    
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A8 p{
+.C8 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
-}.A9{
+}.C9{
     padding: 30px;
     display: flex;
 }
-.A9 .a9{
+.C9 .c9{
     width: 10%;
     height: 5%;
 }
-.A9 h9{
+.C9 h9{
     font-family: serif;
     font-size: 40px;
-    
+    margin: 20px 20px 10px 20px;
     text-align: center;
 }
-.A9 p{
+.C9 p{
     margin: 0px 30px 0px 30px;
     font-size: 25px;
-    text-align: center;
 }
 
 
@@ -241,74 +234,256 @@
 .coontainer p{
     font-size: 20px;
 }
-.A1{
+.C1{
     flex-direction: column;
     padding: 10px;
     
 }
-.a1{
+.c1{
     margin-left: 50px;
     
-}
-.a1 p{
-    font-size: 15px;
 }
 
-.A2{
+.C2{
     flex-direction: column;
     padding: 10px;
 }
-.a2{
+.c2{
     margin-left: 50px;
 }
-.A3{
+.C3{
     flex-direction: column;
     padding: 10px;
 }
-.a3{
+.c3{
     margin-left: 50px;
 }
-.A4{
+.C4{
     flex-direction: column;
     padding: 10px;
 }
-.a4{
+.c4{
     margin-left: 50px;
 }
-.A5{
+.C5{
     flex-direction: column;
     padding: 10px;
 }
-.a5{
+.c5{
     margin-left: 50px;
 }
-.A6{
+
+
+.siguien{
+    margin-left: 60%;
+}
+}
+.tim{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ba{
+    width: 100%;
+    background: rgb(52, 36, 199);
+    display: flex;
+    max-width: 100%;
+    height: 110px;
+}
+.ba img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.ba h1{
+    font-family: serif;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 40px;
+}
+.coontainer p{
+    font-family: serif;
+    font-size: 30px;
+    margin: 20px 0px 30px 0px ;
+}
+.C1{
+    padding: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.C1 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.C1 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+.C2{
+    padding: 30px;
+    display: flex;
+}
+.C2 .c2{
+    width: 10%;
+    height: 5%;
+}
+.C2 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.C2 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.C3{
+    padding: 30px;
+    display: flex;
+}
+.C3 .c3{
+    width: 10%;
+    height: 5%;
+}
+.C3 h2{
+    font-family: serif;
+    font-size: 40px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.C3 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.C4{
+    padding: 30px;
+    display: flex;
+}
+.C4 .b4{
+    width: 10%;
+    height: 5%;
+}
+.C4 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 0px;
+    text-align: center;
+}
+.C4 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+.C5{
+    padding: 30px;
+    display: flex;
+}
+.C5 .b5{
+    width: 10%;
+    height: 5%;
+}
+.C5 h2{
+    font-family: serif;
+    font-size: 50px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+.C5 p{
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
+}
+
+
+
+.siguien{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+.sig{
+    background: #007bff;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+}
+.si{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+.tim{
+    width: 100%;
+    max-width: 100%;
+}
+.ba{
+    width: 100%;
+}
+.ba h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.ba img{
+    margin-left: 10px;
+}
+.coontainer{
+    width: 100%;
+    max-width: 100%;
+}
+.coontainer p{
+    font-size: 20px;
+}
+.C1{
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.c1{
+    margin-left: 50px;
+    
+}
+
+.C2{
     flex-direction: column;
     padding: 10px;
 }
-.a6{
+.c2{
     margin-left: 50px;
 }
-.A7{
+.C3{
     flex-direction: column;
     padding: 10px;
 }
-.a7{
+.c3{
     margin-left: 50px;
-}.A8{
+}
+.C4{
     flex-direction: column;
     padding: 10px;
 }
-.a8{
+.c4{
     margin-left: 50px;
 }
-.A9{
+.C5{
     flex-direction: column;
     padding: 10px;
 }
-.a9{
+.c5{
     margin-left: 50px;
 }
+
+
 .siguien{
     margin-left: 60%;
 }

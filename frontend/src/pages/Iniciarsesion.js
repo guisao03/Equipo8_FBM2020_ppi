@@ -21,7 +21,7 @@ class Iniciarsesion extends Component {
                                 <from>
                                     <input type="text" placeholder="Correo"/>
                                     <input type="text" placeholder="Contraseña"/>
-                                    <Link to="/usuario">
+                                    <Link to="/cuestionario">
                                     <input type="submit" value="Ingresar"/>
                                     </Link>
                                     <div className="pregunta">

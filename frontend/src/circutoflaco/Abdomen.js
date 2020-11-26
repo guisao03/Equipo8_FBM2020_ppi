@@ -61,7 +61,7 @@ class Abdomenprin extends Component {
                     </div>
                     <div className="A4">
                         <ReactPlayer className="a4" url='https://youtu.be/tD24TlTHa74'
-                        width="50%"
+                        width="80%"
                         height="auto"
                         muted
                         playing

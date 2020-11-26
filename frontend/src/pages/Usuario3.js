@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import Logo from '../img/LOGO.jpg';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import '../styles/Usuario.css';
 
 
 
 class Usuario3 extends Component  {
+    
     render () {
         return (
+            
             <div>
                 <section className="principal">
                     <div className="princi">

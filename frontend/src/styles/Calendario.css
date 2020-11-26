@@ -5,7 +5,7 @@
 .barraa{
     flex-wrap: wrap;
     width: 100%;
-    height: auto;
+    height: 500px;
     background: #076585;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/gimm.jpg);
@@ -94,6 +94,6 @@
     margin-bottom: -20%;
 }
 .botin{
-    margin-top: 10px;
+    margin-top: 40px;
 }
 }

@@ -1,38 +1,8 @@
-# json-server-now
+<<<<<<< HEAD
+backend OLYMPO FITNESS 
+=======
 
-Getting json-server to work on now.sh in 2019
+# Este es el backend del equipo #8 de la I.E Felix de Bedout Moreno llamada OLYMPO FITNESS :)
 
-# Getting started.
 
-```
-git clone https://github.com/thedamian/json-server-now.git
-cd json-server-now
-```
-
-Change the db.js file to meet your initial requirements
-
-```
-npm install
-```
-
-Run locally:
-
-```
-npm run start
-```
-
-Install now
-
-```
-npm install -g now
-```
-
-Deploy it:
-
-```
-now
-```
-
-# Credits
-
-Inspired by https://github.com/thedamian/json-server-now
+>>>>>>> 75cf6a51d6ed47ff971cc006b464d89f9e867189

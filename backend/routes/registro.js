@@ -16,7 +16,7 @@ router.get('/', (req, res)=>{
 
 //Servicio para registrar un nuevo usuario
 router.post('/usuario/nuevo', (req, res)=>{
-  const { nombre, apellido, correo, contraseña} = req.body;
+  const { nombre, apellido, correo, contraseña } = req.body;
 
   let usuario = [ nombre, apellido, correo, contraseña];
 
@@ -32,7 +32,7 @@ router.post('/usuario/nuevo', (req, res)=>{
 
 //Actualización de un usuario
 router.put('/registro/actualizar', (req, res)=>{
-    const {nombre, apellido, correo, contraseña} = req.body;
+    const { nombre, apellido, correo, contraseña } = req.body;
     const { actualizar } = req.params;
     mysqlConnection.query(`UPDATE registro SET nombre = ?, apellido = ?, correo =?,
       contraseña = ? WHERE actualizar = ?`, [nombre, apellido, correo, contraseña, actualizar], (err, rows, fields)=>{
